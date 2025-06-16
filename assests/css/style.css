@@ -1,8 +1,22 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 
+/* CSS Variables */
 
-body {
-    background-color: #A3B18A;
+:root {
+    --primary-font: "Comfortaa", sans-serif;
+    --secondary-font: "Karla", "Helvetica Neue";
+    
 }
 
+body {
+    background-color: #FFFDEF;
+}
+
+#navbar {
+    background-color: #092009;
+}
+
+#navbar .logo {
+    width: 30px;
+}
