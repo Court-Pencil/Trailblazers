@@ -46,3 +46,7 @@ h1 {
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
+
+.social-links {
+    color: var(--secondary-color);
+}
