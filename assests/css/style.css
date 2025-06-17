@@ -6,6 +6,11 @@
 :root {
     --primary-font: "Comfortaa", sans-serif;
     --secondary-font: "Karla", "Helvetica Neue";
+    --primary-color: #0E4424; /* Dark green */
+    #D19C1D /* Yellow orche */
+    #422E24 /* Rich brown */
+    #FFFDEF /* Ivory */
+    #231B12 /* Black */
     
 }
 
@@ -13,10 +18,24 @@ body {
     background-color: #FFFDEF;
 }
 
+
+h1 {
+    color: #0e4424;
+}
+
 #navbar {
-    background-color: #092009;
+    background-color: #0e4424;
 }
 
 #navbar .logo {
-    width: 30px;
+    max-height: 50px; 
+    width: auto; 
+}
+
+
+
+/* footer */
+#contact-us {
+    background-color: var(--primary-color);
+    color: #FFFDEF;
 }
