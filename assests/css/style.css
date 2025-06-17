@@ -7,15 +7,14 @@
     --primary-font: "Comfortaa", sans-serif;
     --secondary-font: "Karla", "Helvetica Neue";
     --primary-color: #0E4424; /* Dark green */
-    #D19C1D /* Yellow orche */
+    --secondary-color: #D19C1D; /* Yellow orche */
     #422E24 /* Rich brown */
     #FFFDEF /* Ivory */
-    #231B12 /* Black */
-    
+    #231B12 /* Black */  
 }
 
 body {
-    background-color: #FFFDEF;
+    background-color: white;
 }
 
 
@@ -27,15 +26,23 @@ h1 {
     background-color: #0e4424;
 }
 
+.navbar-brand {
+    color: #D19C1D;
+    font-family: var(--primary-font);
+}
+
 #navbar .logo {
     max-height: 50px; 
     width: auto; 
 }
 
+.nav-item {
+    color: var(--secondary-color);
+}
 
 
 /* footer */
 #contact-us {
     background-color: var(--primary-color);
-    color: #FFFDEF;
+    color: var(--secondary-color);
 }
