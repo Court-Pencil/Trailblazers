@@ -60,9 +60,9 @@ Trailblazers is an inclusive website built for LGBTQ+ nature lovers looking to c
 
 * As a user, I want clear information about where the hikes take place, what to expect(diffculty and duration) and how to prepare.
 * As a user, I want to reassurance as a first-time hiker that there are events that are beginner-friendly.
-* As a user, I want to browse a gallery to get a feel for the types of locations visited and the community vibe.
-* As a user, I want a simple and accessible way to book a hike.
-* As a user, I want to be able to access contact information quickly.
+* As a user, I want to browse a gallery to get a feel for the community vibe.
+* As a user, I want a simple and accessible way to book a hike and find contact information.
+* As a user, I want to be able to see this is a inclusive space.
 * As a user, I want to be able to browse pricing easily.
 * As a user, I want to be to use the website on phone, tablet or desktop.
 
