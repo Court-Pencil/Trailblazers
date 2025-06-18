@@ -1,14 +1,16 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Comfortaa:wght@300..700&display=swap');
+
+
 
 /* CSS Variables */
 
 :root {
-    --primary-font: "Comfortaa", sans-serif;
-    --secondary-font: "Karla", "Helvetica Neue";
+    --primary-font: "bree serif", serif;
+    --secondary-font: "Comfortaa", sans-serif;
     --primary-color: #293b31; /* Dark green */
     --secondary-color: #D19C1D; /* Yellow orche */
-    #422E24 /* Rich brown */
+    --highlight-color: #bebe5e; /* pale green */
     #FFFDEF /* Ivory */
     #231B12 /* Black */  
 }
@@ -18,28 +20,32 @@ body {
 }
 
 
-h1 {
-    color: #0e4424;
+h1,
+h2 {
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+
 }
 
 #navbar {
     background-color: var(--primary-color);
 }
 
-.nav-item {
-    color: #D19C1D;
-    font-family: var(--primary-font);
+.navbar-toggler {
+      border-color: var(--primary-color);
+    }
+
+.navbar-nav .nav-link {
+    color: var(--secondary-color) !important; /* Change to any color */
 }
 
-
-#navbar .logo {
-    height: 40px; 
-    width: 40px; 
+.navbar-toggler-icon {
+    filter: invert(38%) sepia(92%) saturate(500%) hue-rotate(20deg);
 }
 
-.nav-bar a,
-.nav-bar .nav-bar-toggler-icon {
-    color: var(--secondary-color);
+#logo {
+    height: 45px;
+    width: 45px;
 }
 
 /* Header */
@@ -59,10 +65,18 @@ h1 {
 
 /* footer */
 #contact-us {
+    font-family: var(--primary-font);
     background-color: var(--primary-color);
-    color: white;
+    color: var(--secondary-color);
 }
 
-.social-links {
+#contact-us h2 {
     color: var(--secondary-color);
+}
+
+#contact-us .social-links i {
+    color: var(--highlight-color);
+    font-size: 1.6rem;
+    padding: 0 1rem;
+    
 }

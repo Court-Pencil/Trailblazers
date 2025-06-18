@@ -58,13 +58,12 @@ Trailblazers is an inclusive website built for LGBTQ+ nature lovers looking to c
 
 ## User Stories 
 
-* As a user i want, i want to easily discover upcoming hikes where i can feel part of a supportive community.
-* As a user, I want clear information about where the hikes take place, what to expect(diffculty, terrain, duration) and how to prepare.
+* As a user, I want clear information about where the hikes take place, what to expect(diffculty and duration) and how to prepare.
 * As a user, I want to reassurance as a first-time hiker that there are events that are beginner-friendly.
 * As a user, I want to browse a gallery to get a feel for the types of locations visited and the community vibe.
 * As a user, I want a simple and accessible way to book a hike.
 * As a user, I want to be able to access contact information quickly.
-* As a user, I want to be able to browse pricing easily and see if there are any discounts.(student rates)
+* As a user, I want to be able to browse pricing easily.
 * As a user, I want to be to use the website on phone, tablet or desktop.
 
 
@@ -73,15 +72,13 @@ Trailblazers is an inclusive website built for LGBTQ+ nature lovers looking to c
 * Boost ticket sales for events
 * Encourage participation from all skill levels 
 * Foster connection through pictures and written content
-* Create a welcoming online space for LGBTQ+ individuals 
-* Use the site to actively recruit new members espe
+* Create a welcoming online space for LGBTQ+ individuals  
 * Increase ranking on search engine to increase website traffic
 *  Present up-to date event information with clear times, locations, and pricing.
 
 ## Target Audience
 * Hiking enthusiasts 
 * LGBTQ+ people 
-* Students
 * First-time hikers  
 ## Wireframes
 The wireframes were designed using Balsamiq. Designed with mobile first practices, tablet and then website.
