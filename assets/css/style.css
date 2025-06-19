@@ -21,8 +21,8 @@
 }
 
 .custom-btn {
-    background-color: var(--highlight-color);
-    color: var(--primary-color);
+    color: var(--highlight-color);
+    border-color: var(--highlight-color);
 }
 
 body {
@@ -45,7 +45,7 @@ h3 {
 
 p {
     font-family: var(--secondary-font);
-    color: #293b31;
+    color: ;
 }
 
 /* Head */
