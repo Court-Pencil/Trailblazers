@@ -20,6 +20,11 @@
     color: var(--highlight-color);
 }
 
+.custom-btn {
+    background-color: var(--highlight-color);
+    color: var(--primary-color);
+}
+
 body {
     background-color: white;
 }
@@ -38,6 +43,8 @@ h2 {
 p {
     font-family: var(--secondary-font);
 }
+
+/* Head */
 
 #navbar {
     background-color: var(--primary-color);
