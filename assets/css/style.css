@@ -39,6 +39,8 @@
     font-family: var(--secondary-font);
 }
 
+
+
 body {
     background-color: white;
 }
@@ -60,7 +62,9 @@ h3 {
 
 p {
     font-family: var(--secondary-font);
-    color: ;
+    font-size: 1.2rem;
+    font-weight: 700;
+    
 }
 
 /* Head */
@@ -120,8 +124,8 @@ p {
     flex-shrink: 0;
     background: url("../images/about-image-flag.jpg") no-repeat center / cover;
     background-color: aqua;
-    width: 200px;
-  height: 200px;
+    width: 350px;
+  height: 350px;
   border-radius: 50%;
   margin: 2rem auto;
 }
@@ -167,14 +171,6 @@ p {
 /* Medium devices and up */
 @media screen and (min-width: 768px) {
     
-    .about-content {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
-        text-align: left;
-    }
-    
     .card-body {
     min-height: 296px;
 }
@@ -183,6 +179,15 @@ p {
 
 /* Large devices and up */
 @media screen and (min-width: 992px) {
+    
+    .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        text-align: left;
+    }
+    
     .card-body {
     min-height: 270px;
 }
@@ -202,9 +207,5 @@ p {
 @media screen and (min-width: 1440px) {
     #hero-image {
         background-position: ;
-    
-}
-
-@media screen and  {
     
 }
