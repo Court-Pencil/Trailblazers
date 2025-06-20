@@ -108,6 +108,25 @@ p {
     font-weight: 700;
 }
 
+/* About section */
+
+.about-content {
+    display: block;
+    text-align: center;
+}
+
+
+.circle-about-image {
+    flex-shrink: 0;
+    background: url("../images/about-image-flag.jpg") no-repeat center / cover;
+    background-color: aqua;
+    width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 2rem auto;
+}
+
+
 /* hikes */
 .card-img, .card-img-bottom, .card-img-top {
     width: 100%;
@@ -147,9 +166,19 @@ p {
 /* Media queries*/
 /* Medium devices and up */
 @media screen and (min-width: 768px) {
+    
+    .about-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        text-align: left;
+    }
+    
     .card-body {
     min-height: 296px;
 }
+
 }
 
 /* Large devices and up */
