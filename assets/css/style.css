@@ -73,10 +73,10 @@ p {
 
 /* Header */
 #hero-image {
-    background-image: url("../images/hero-image.jpg");
+    background-image: url("../images/group-hike.jpg");
     background-color: #D19C1D;
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     height: 450px;
     display: flex;
     align-items: center;
