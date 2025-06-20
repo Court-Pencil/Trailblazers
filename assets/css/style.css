@@ -98,6 +98,15 @@ p {
     justify-content: center;
 }
 
+/* header for booking page  */
+#header-bp {
+    margin-top: 93px;
+}
+
+#header-bp p {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
 
 /* hikes */
 .card-img, .card-img-bottom, .card-img-top {
@@ -110,6 +119,12 @@ p {
     font-weight: 500;
 }
 
+/* Booking form */
+
+#booking-form {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
 
 /* footer */
 #contact-us {
