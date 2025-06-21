@@ -11,8 +11,7 @@
     --primary-color: #293b31; /* Dark green */
     --secondary-color: #D19C1D; /* Yellow orche */
     --highlight-color: #bebe5e; /* pale green */
-    #FFFDEF /* Ivory */
-    #231B12 /* Black */  
+    --secondary-highlight-color: #d6c7e1; /* lavender */
 }
 
 /* global styles */
@@ -28,11 +27,6 @@
     color: var(--primary-color);
 }
 
-.outline-btn {
-    color: var(--highlight-color);
-    border-color: var(--highlight-color);
-}
-
 .page-button {
     color: #bebe5e;
     background-color: #293b31;
@@ -40,8 +34,11 @@
     border-color: var(--highlight-color);
 }
 
-.hover-colour {
-    color: #eec9f9;
+.page-button:hover {
+    color: var(--secondary-highlight-color);
+    background-color: #293b31;
+    font-family: var(--secondary-font);
+    border-color: var(--secondary-highlight-color);
 }
 
 
@@ -92,6 +89,16 @@ p {
 #logo {
     height: 45px;
     width: 45px;
+}
+
+.outline-btn {
+    color: var(--highlight-color);
+    border-color: var(--highlight-color);
+}
+
+.outline-btn:hover {
+    color: var(--secondary-highlight-color);
+    border-color: var(--secondary-highlight-color);
 }
 
 /* Header */
@@ -180,7 +187,7 @@ p {
 }
 
 #contact-us .social-links i:hover {
-    color: #ccc9e7;
+    color: #d6c7e1;
     font-size: 1.6rem;
     padding: 0 1rem;
     
