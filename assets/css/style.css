@@ -37,8 +37,12 @@
     color: #bebe5e;
     background-color: #293b31;
     font-family: var(--secondary-font);
+    border-color: var(--highlight-color);
 }
 
+.hover-colour {
+    color: #eec9f9;
+}
 
 
 body {
@@ -152,6 +156,11 @@ p {
     font-weight: 700;
 }
 
+/* Success page */
+#success {
+    padding-top: 100px;
+}
+
 /* footer */
 #contact-us {
     font-family: var(--primary-font);
@@ -165,6 +174,13 @@ p {
 
 #contact-us .social-links i {
     color: var(--highlight-color);
+    font-size: 1.6rem;
+    padding: 0 1rem;
+    
+}
+
+#contact-us .social-links i:hover {
+    color: #ccc9e7;
     font-size: 1.6rem;
     padding: 0 1rem;
     
