@@ -1,13 +1,15 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Comfortaa:wght@300..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
 
 
 /* CSS Variables */
 
 :root {
     --primary-font: "bree serif", serif;
-    --secondary-font: "Comfortaa", sans-serif;
+    --secondary-font: "Lato", sans-serif;
     --primary-color: #293b31; /* Dark green */
     --secondary-color: #D19C1D; /* Yellow orche */
     --highlight-color: #bebe5e; /* pale green */
@@ -161,6 +163,13 @@ p {
 #booking-form {
     font-size: 1.2rem;
     font-weight: 700;
+}
+
+#booking-form form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 /* Success page */
