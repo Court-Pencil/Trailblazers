@@ -97,14 +97,10 @@ p {
 
 /* Header */
 #hero-image {
-  background-image: url("../images/hero-image.jpg");
+  background: url("../images/hero-image.jpg") no-repeat;
   background-color: #d19c1d;
-  background-size: cover;
   background-position: top;
   min-height: 450px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* header for booking page  */
@@ -201,6 +197,9 @@ p {
 }
 
 /* Media queries*/
+
+
+
 /* Medium devices and up */
 @media screen and (min-width: 768px) {
   .circle-about-image {
