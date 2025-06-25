@@ -153,6 +153,13 @@ p {
   width: 100%;
   min-height: 200px;
 } */
+#gallery {
+    margin: 1rem 0;
+ }
+
+ .photo-gallery img {
+    width: 100%;
+ }
 
 /* Booking form */
 
