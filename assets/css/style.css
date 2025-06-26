@@ -174,23 +174,19 @@ p {
 }
 
 /* footer */
-#contact-us {
+#footer {
   font-family: var(--primary-font);
   background-color: var(--green);
   color: var(--yellow);
 }
 
-#contact-us h2 {
-  color: var(--yellow);
-}
-
-#contact-us .social-links i {
+#footer .social-links i {
   color: var(--pale-green);
   font-size: 1.6rem;
   padding: 0 1rem;
 }
 
-#contact-us .social-links i:hover {
+#footer .social-links i:hover {
   color: #d6c7e1;
   font-size: 1.6rem;
   padding: 0 1rem;
