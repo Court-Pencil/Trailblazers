@@ -8,10 +8,11 @@
 :root {
   --primary-font: "Bree Serif", serif;
   --secondary-font: "Lato", sans-serif;
-  --green: #293b31; /* Dark green */
-  --yellow: #d19c1d; /* Yellow orche */
-  --pale-green: #bebe5e; /* pale green */
-  --lavender: #d6c7e1; /* lavender */
+  --green: #293b31; 
+  --header-yellow: #d19c1d;
+  --yellow: #956f15; 
+  --pale-green: #bebe5e;
+  --lavender: #d6c7e1; 
 }
 
 /* global styles */
@@ -77,9 +78,11 @@ p {
   filter: invert(38%) sepia(92%) saturate(500%) hue-rotate(20deg);
 }
 
+/* this need to be changed bar the colour */
 #logo {
   max-width: 45px;
   max-height: 45px;
+  color: var(--header-yellow);
 }
 
 .outline-btn {
@@ -93,7 +96,10 @@ p {
 }
 
 /* Header */
-
+#hero-image {
+  width: 100%;
+  height:auto
+}
 
 /* header for booking page  */
 #header-bp {
