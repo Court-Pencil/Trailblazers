@@ -6,17 +6,17 @@
 /* CSS Variables */
 
 :root {
-  --primary-font: "Bree serif", serif;
+  --primary-font: "Bree Serif", serif;
   --secondary-font: "Lato", sans-serif;
-  --primary-color: #293b31; /* Dark green */
-  --secondary-color: #d19c1d; /* Yellow orche */
-  --highlight-color: #bebe5e; /* pale green */
-  --secondary-highlight-color: #d6c7e1; /* lavender */
+  --green: #293b31; /* Dark green */
+  --yellow: #d19c1d; /* Yellow orche */
+  --pale-green: #bebe5e; /* pale green */
+  --lavender: #d6c7e1; /* lavender */
 }
 
 /* global styles */
 .dark-background {
-  color: var(--highlight-color);
+  color: var(--pale-green);
 }
 
 .secondary-font {
@@ -24,35 +24,32 @@
 }
 
 .light-background {
-  color: var(--primary-color);
+  color: var(--green);
 }
 
 .page-button {
-  color: #bebe5e;
-  background-color: #293b31;
+  color: var(--pale-green);
+  background-color: var(--green);
   font-family: var(--secondary-font);
-  border-color: var(--highlight-color);
+  border-color: var(--pale-green);
 }
 
 .page-button:hover {
-  color: var(--secondary-highlight-color);
+  color: var(--lavender);
   background-color: #293b31;
   font-family: var(--secondary-font);
-  border-color: var(--secondary-highlight-color);
+  border-color: var(--lavender);
 }
 
-body {
-  background-color: white;
-}
 
 h1,
 h2 {
-  color: var(--secondary-color);
+  color: var(--yellow);
   font-family: var(--primary-font);
 }
 
 h3 {
-  color: var(--primary-color);
+  color: var(--green);
   font-family: var(--primary-font);
 }
 
@@ -65,15 +62,15 @@ p {
 /* Head */
 
 #navbar {
-  background-color: var(--primary-color);
+  background-color: var(--green);
 }
 
 .navbar-toggler {
-  border-color: var(--primary-color);
+  border-color: var(--green);
 }
 
 .navbar-nav .nav-link {
-  color: var(--secondary-color) !important;
+  color: var(--yellow) !important;
 }
 
 .navbar-toggler-icon {
@@ -86,22 +83,17 @@ p {
 }
 
 .outline-btn {
-  color: var(--highlight-color);
-  border-color: var(--highlight-color);
+  color: var(--pale-green);
+  border-color: var(--pale-green);
 }
 
 .outline-btn:hover {
-  color: var(--secondary-highlight-color);
-  border-color: var(--secondary-highlight-color);
+  color: var(--lavender);
+  border-color: var(--lavender);
 }
 
 /* Header */
-#hero-image {
-  background: url("../images/hero-image.jpg") no-repeat;
-  background-color: #d19c1d;
-  background-position: top;
-  min-height: 450px;
-}
+
 
 /* header for booking page  */
 #header-bp {
@@ -123,7 +115,6 @@ p {
 .circle-about-image {
   flex-shrink: 0;
   background: url("../images/about-image.jpg") no-repeat center / cover;
-  background-color: aqua;
   width: 250px;
   min-height: 250px;
   border-radius: 50%;
@@ -148,11 +139,7 @@ p {
   border: none;
 }
 
-/* gallery */
-/* #gallery img {
-  width: 100%;
-  min-height: 200px;
-} */
+
 #gallery {
     margin: 1rem 0;
  }
@@ -183,16 +170,16 @@ p {
 /* footer */
 #contact-us {
   font-family: var(--primary-font);
-  background-color: var(--primary-color);
-  color: var(--secondary-color);
+  background-color: var(--green);
+  color: var(--yellow);
 }
 
 #contact-us h2 {
-  color: var(--secondary-color);
+  color: var(--yellow);
 }
 
 #contact-us .social-links i {
-  color: var(--highlight-color);
+  color: var(--pale-green);
   font-size: 1.6rem;
   padding: 0 1rem;
 }
