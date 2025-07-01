@@ -4,12 +4,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* CSS Variables */
+html {
+  font-size: 10px;
+}
+
+body {
+  font: 1.6rem;
+}
 
 :root {
   --primary-font: "Bree Serif", serif;
   --secondary-font: "Lato", sans-serif;
   --green: #293b31; 
-  --header-yellow: #d19c1d;
+  --lighter-yellow: #d19c1d;
   --yellow: #956f15; 
   --pale-green: #bebe5e;
   --lavender: #d6c7e1; 
@@ -43,7 +50,12 @@
 }
 
 
-h1,
+h1 {
+  color: var(--lighter-yellow);
+  font-family: var(--primary-font);
+}
+
+
 h2 {
   color: var(--yellow);
   font-family: var(--primary-font);
@@ -71,7 +83,7 @@ p {
 }
 
 .navbar-nav .nav-link {
-  color: var(--yellow) !important;
+  color: var(--lighter-yellow) !important;
 }
 
 .navbar-toggler-icon {
@@ -170,7 +182,7 @@ p {
 #footer {
   font-family: var(--primary-font);
   background-color: var(--green);
-  color: var(--yellow);
+  color: var(--lighter-yellow);
 }
 
 #footer .social-links i {
