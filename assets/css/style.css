@@ -96,20 +96,12 @@ p {
 }
 
 /* Header */
-#hero-image {
-  width: 100%;
-  height:auto
+.hero-image {
+  display: block;
+     max-inline-size: 100%;
 }
 
-/* header for booking page  */
-#header-bp {
-  margin-top: 93px;
-}
 
-#header-bp p {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
 
 /* About section */
 
@@ -151,7 +143,8 @@ p {
  }
 
  .photo-gallery img {
-    width: 100%;
+     display: block;
+     max-inline-size: 100%;
  }
 
 /* Booking form */
