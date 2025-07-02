@@ -162,6 +162,7 @@ The header is consistent across all screen sizes. It contains a logo on the left
 ### Libraries & Framework
 * [Google Fonts](https://fonts.google.com/selection).
 * [Fav Icon](https://fontawesome.com/).
+* [Bootstrap](https://getbootstrap.com/)
 
 ### Tools
 * [Github](https://github.com/)
