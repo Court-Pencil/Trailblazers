@@ -89,21 +89,21 @@ The wireframes were designed using Balsamiq. Designed with mobile first practice
 
 ## Design Choices
 ### Typography
-<!-- Review and see which font was used 
-Add link to choosen fonts -->
-The font family choose for the Trailblazers website was Comfortaa/Baloo 2 for the primary font. Karla/Nunito for the secondary font. These fonts were choosen for their joyful and inviting feel.
+The font family choose for the Trailblazers website was Bree Serif for the primary font. Lato for the secondary font. These fonts were choosen for their joyful and inviting feel.
 
 ### Colour Scheme
 <!-- Add in colour scheme chart and constract block -->
 ![alt text](image-1.png)    
 ![alt text](image-1.png)   
 
-| CSS name     | HEX   | Comment   |
-|--------------|--------------|--------------|
-| Row 1 Cell 1 | Row 1 Cell 2 | Row 1 Cell 3 |
-| Row 2 Cell 1 | Row 2 Cell 2 | Row 2 Cell 3 |
-| Row 3 Cell 1 | Row 3 Cell 2 | Row 3 Cell 3 |
-| Row 4 Cell 1 | Row 4 Cell 2 | Row 4 Cell 3 |
+| CSS name       | HEX     |   |   |   |
+|----------------|---------|---|---|---|
+| green          | #293b31 |   |   |   |
+| lighter-yellow | #d19c1d |   |   |   |
+| yellow         | #956f15 |   |   |   |
+| pale-green     | #bebe5e |   |   |   |
+| lavender       | #d6c7e1 |   |   |   |
+|                |         |   |   |   |
 
 ### Images
 <!-- make pexel a hyperlink -->
@@ -127,9 +127,9 @@ The header is consistent across all screen sizes. It contains a logo on the left
 * Call-to-action button encourages users to book a hike or view upcoming events.  
 
 ### Events
-*Lists upcoming hikes with dates, locations, and brief descriptions.
+* Lists upcoming hikes with dates, locations, and brief descriptions.
 
-*Pricing is visible, with clear mention of student discounts.
+* Pricing is visible, with clear mention of student discounts.
 
 * Each event includes a “Book Now” button that links to the inquiry form.  
 
@@ -160,7 +160,7 @@ The header is consistent across all screen sizes. It contains a logo on the left
 * CSS
 
 ### Libraries & Framework
-* [Google Fonts](https://fonts.google.com/).
+* [Google Fonts](https://fonts.google.com/selection).
 * [Fav Icon](https://fontawesome.com/).
 
 ### Tools
