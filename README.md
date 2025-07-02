@@ -107,18 +107,27 @@ The font family choose for the Trailblazers website was Bree Serif for the prima
 
 ### Images
 <!-- make pexel a hyperlink -->
-Hiking images are taken from [pexel](https://www.pexels.com/).
+Images are taken from:
+* [pexel](https://www.pexels.com/)
+* [unsplash](https://unsplash.com/)
 
 ### Responsiveness 
 My website is repsonsive to all screen sizes. The breakpoints i am using are from bootstrap.
-![bootstrap-breakpoints](assests/images/bootstrap.breakpoints.png)
+| Breakpoint        | Class infix | Dimensions |   |   |
+|-------------------|-------------|------------|---|---|
+| Extra small       | None        | <576px     |   |   |
+| Small             | sm          | ≥576px     |   |   |
+| Medium            | md          | ≥768px     |   |   |
+| Large             | lg          | ≥992px     |   |   |
+| Extra large       | xl          | ≥1200px    |   |   |
+| Extra extra large | xxl         | ≥1400px    |   |   |
 
 ## Features  
 <!-- Placeholder text -->
 This website offers a range of thoughtful and inclusive features designed to create a welcoming and accessible experience for all users. From the moment visitors land on the site, they are greeted with vibrant imagery and a clear call to action. The events section highlights upcoming hikes with detailed information, including dates, locations, and pricing—featuring student discounts to ensure inclusivity. A responsive booking form makes it easy to inquire about events, and the gallery showcases the spirit of the community through high-quality images. Easy navigation, clear layout, and a mobile-friendly design ensure users can explore and engage with the site on any device.
 ## Existing Features
 ### Header
-The header is consistent across all screen sizes. It contains a logo on the left and on the right, navigation links to the Gallery, Events, Contact and Home page. Clear, user-friendly layout helps users orient themselves quickly with intitutive design.
+The header is consistent across all screen sizes. It contains a logo on the left and on the right, navigation links to the Gallery, Events, Contact and Home page. A prominent "Book Now" call-to-action button is positioned next to the navigation links, encouraging user engagement. Clear, user-friendly layout helps users orient themselves quickly with intitutive design.
 ### Home page
 * Welcoming landing section with a bold mission statement.
 
@@ -148,11 +157,10 @@ The header is consistent across all screen sizes. It contains a logo on the left
 * Confirmation message or redirect on successful submission.  
 
 ### Footer
-* Includes contact information, social media links, and copyright.
+* Includes social media links and text saying 'Trailblazers made by court' with an apple emoji.
 
 * Designed to be accessible and mobile-friendly.
 
-* Repeats essential navigation links for ease of use.
 
 ## Technologies Used
 ### Languages
