@@ -155,20 +155,21 @@ p {
  }
 
 
-.container{
+#gallery.container{
   max-width: ;
   margin:20px auto;
 }
 
-.container .image-container{
-  columns:3 250px;
+#gallery .image-container{
+  columns: 25rem;
   gap:15px;
 }
 
-.container .image-container img{
+#gallery .image-container img{
   margin-bottom: 10px;
   border-radius: 5px;
   width: 100%;
+  break-inside: avoid;
 }
 
 
