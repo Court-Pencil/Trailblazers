@@ -1,6 +1,4 @@
 /* Google fonts import */
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Comfortaa:wght@300..700&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* CSS Variables */
@@ -92,9 +90,9 @@ p {
 
 /* this need to be changed bar the colour */
 #logo {
-  max-width: 45px;
-  max-height: 45px;
-  color: var(--header-yellow);
+  max-width: 4.5rem;
+  max-height: 4.5rem;
+  color: var(--lighter-yellow);
 }
 
 .outline-btn {
@@ -146,8 +144,8 @@ p {
 .circle-about-image {
   flex-shrink: 0;
   background: url("../images/about-image.webp") no-repeat center / cover;
-  width: 250px;
-  min-height: 250px;
+  width: 25rem;
+  min-height: 25rem;
   border-radius: 50%;
   margin: 2rem auto;
 }
@@ -157,12 +155,12 @@ p {
 .card-img-bottom,
 .card-img-top {
   width: 100%;
-  max-height: 300px;
-  min-height: 300px;
+  max-height: 30rem;
+  min-height: 30rem;
 }
 
 #hikes p {
-  font-size: larger;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 
@@ -178,17 +176,17 @@ p {
 
 #gallery.container{
   max-width: ;
-  margin:20px auto;
+  margin:2rem auto;
 }
 
 #gallery .image-container{
   columns: 25rem;
-  gap:15px;
+  gap:1.5 rem;
 }
 
 #gallery .image-container img{
-  margin-bottom: 10px;
-  border-radius: 5px;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
   width: 100%;
   break-inside: avoid;
 }
@@ -212,7 +210,24 @@ p {
 
 /* Success page */
 #success {
-  padding-top: 100px;
+  padding-top: 10rem;
+}
+
+/* Contact section */
+#contact-us {
+  background-color: var(--green);
+}
+
+#contact-us .social-links i {
+  color: var(--pale-green);
+  font-size: 1.6rem;
+  padding: 0 1rem;
+}
+
+#contact-us .social-links i:hover {
+  color: #d6c7e1;
+  font-size: 1.6rem;
+  padding: 0 1rem;
 }
 
 /* footer */
@@ -222,17 +237,7 @@ p {
   color: var(--lighter-yellow);
 }
 
-#footer .social-links i {
-  color: var(--pale-green);
-  font-size: 1.6rem;
-  padding: 0 1rem;
-}
 
-#footer .social-links i:hover {
-  color: #d6c7e1;
-  font-size: 1.6rem;
-  padding: 0 1rem;
-}
 
 /* Media queries*/
 
@@ -241,8 +246,8 @@ p {
 /* Medium devices and up */
 @media screen and (min-width: 768px) {
   .circle-about-image {
-    width: 350px;
-    min-height: 350px;
+    width: 35rem;
+    min-height: 35rem;
   }
 
   #booking-form {
@@ -250,7 +255,7 @@ p {
 }
 
   .card-body {
-    min-height: 320px;
+    min-height: 32rem;
   }
 
   .card-text-mt {
@@ -275,7 +280,7 @@ p {
   }
 
   .card-body {
-    min-height: 270px;
+    min-height: 27rem;
   }
 
   .card-text-coastal {
@@ -287,7 +292,7 @@ p {
 /* XL devices and up */
 @media screen and (min-width: 1200px) {
   .card-body {
-    min-height: 300px;
+    min-height: 30rem;
   }
 
   #hero-image {
@@ -297,7 +302,7 @@ p {
 
 @media screen and (min-width: 1440px) {
     .card-body {
-        min-height: 318px;
+        min-height: 31.8rem;
     }
 
         .card-text-coastal {
