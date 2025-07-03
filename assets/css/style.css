@@ -71,7 +71,6 @@ p {
 }
 
 /* Head */
-
 #navbar {
   background-color: var(--green);
 }
@@ -88,11 +87,11 @@ p {
   filter: invert(38%) sepia(92%) saturate(500%) hue-rotate(20deg);
 }
 
-/* this need to be changed bar the colour */
+/* logo */
 #logo {
   max-width: 4.5rem;
   max-height: 4.5rem;
-  color: var(--lighter-yellow);
+  color: var(--header-yellow);
 }
 
 .outline-btn {
@@ -129,13 +128,10 @@ p {
 
 .hero-image {
   display: block;
-     max-inline-size: 100%;
+  max-inline-size: 100%;
 }
 
-
-
 /* About section */
-
 .about-content {
   display: block;
   text-align: center;
@@ -160,7 +156,7 @@ p {
 }
 
 #hikes p {
-  font-size: 1.6rem;
+  font-size: larger;
   font-weight: 500;
 }
 
@@ -168,34 +164,29 @@ p {
   border: none;
 }
 
-
+/* Gallery */
 #gallery {
-    margin: 1rem 0;
- }
+  margin: 1rem 0;
+}
 
-
-#gallery.container{
+#gallery.container {
   max-width: ;
-  margin:2rem auto;
+  margin: 2rem auto;
 }
 
-#gallery .image-container{
+#gallery .image-container {
   columns: 25rem;
-  gap:1.5 rem;
+  gap: 1.5rem;
 }
 
-#gallery .image-container img{
+#gallery .image-container img {
   margin-bottom: 1rem;
   border-radius: 0.5rem;
   width: 100%;
   break-inside: avoid;
 }
 
-
-
-
 /* Booking form */
-
 #booking-form {
   font-size: 1.2rem;
   font-weight: 700;
@@ -237,22 +228,17 @@ p {
   color: var(--lighter-yellow);
 }
 
-
-
-/* Media queries*/
-
-
-
+/* Media queries */
 /* Medium devices and up */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 76.8rem) {
   .circle-about-image {
     width: 35rem;
     min-height: 35rem;
   }
 
   #booking-form {
-   margin: 0 9rem;
-}
+    margin: 0 9rem;
+  }
 
   .card-body {
     min-height: 32rem;
@@ -263,14 +249,14 @@ p {
   }
 
   .ddc-card-text {
-    padding-top: .25rem;
-    padding-bottom: .25rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
     margin-top: 3rem;
   }
 }
 
 /* Large devices and up */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 99.2rem) {
   .about-content {
     display: flex;
     align-items: center;
@@ -286,11 +272,10 @@ p {
   .card-text-coastal {
     margin-top: 2.8rem;
   }
-
 }
 
 /* XL devices and up */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 120rem) {
   .card-body {
     min-height: 30rem;
   }
@@ -300,23 +285,23 @@ p {
   }
 }
 
-@media screen and (min-width: 1440px) {
-    .card-body {
-        min-height: 31.8rem;
-    }
+@media screen and (min-width: 144rem) {
+  .card-body {
+    min-height: 31.8rem;
+  }
 
-        .card-text-coastal {
-        margin-top: 2.3rem;
-    }
+  .card-text-coastal {
+    margin-top: 2.3rem;
+  }
 
-    .card-text-tfl {
-        margin-top: 3rem;
-        padding-top: 1.5rem;
-    }
-
-    .ddc-card-text {
+  .card-text-tfl {
+    margin-top: 3rem;
     padding-top: 1.5rem;
-    padding-bottom: .25rem;
+  }
+
+  .ddc-card-text {
+    padding-top: 1.5rem;
+    padding-bottom: 0.25rem;
     margin-top: 3rem;
   }
 
@@ -324,3 +309,4 @@ p {
     margin-top: 2.2rem;
   }
 }
+
