@@ -38,6 +38,8 @@ body {
   background-color: var(--green);
   font-family: var(--secondary-font);
   border-color: var(--pale-green);
+  display: block;
+  margin: auto;
 }
 
 .page-button:hover {
@@ -62,12 +64,12 @@ h3 {
 
 p {
   font-family: var(--secondary-font);
-  font-size: 1.2rem;
+  font-size: 1.5rem; 
   font-weight: 700;
 }
 
 h2 span {
-  background-color: #293b13;
+  background-color: var(--green);
     border-radius: 0.5rem;
     padding: 0.5rem;
     margin: 3rem;
@@ -203,7 +205,7 @@ h2 span {
 
 /* Gallery */
 #gallery {
-  margin: 1rem 0;
+  margin: 3rem 0;
 }
 
 #gallery.container {
