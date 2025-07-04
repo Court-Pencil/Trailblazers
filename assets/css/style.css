@@ -108,7 +108,6 @@ p {
 #header {
   position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -118,17 +117,52 @@ p {
 
 #header img.hero-image { 
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
-.hero-image {
-  display: block;
-  max-inline-size: 100%;
+.hero-text {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--lighter-yellow);
+  font-family: var(--primary-font);
+  text-align: center;
+  z-index: 3;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 2;
+}
+
+#header h1,
+#header p {
+  position: relative;
+    z-index: 3;
+    color: #d19c1d;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-shadow: -2px -2px 11px rgba(0, 0, 0, 1);
+}
+
+#header h1 {
+  font-size: 5rem;
+  margin-top: 8rem;
+}
+
+#header p {
+  font-size: 2rem;
 }
 
 /* About section */
