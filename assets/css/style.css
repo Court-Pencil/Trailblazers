@@ -199,6 +199,15 @@ h2 span {
   border: none;
 }
 
+.card-footer {
+  padding: 0rem 1rem !important;
+}
+
+.card-footer span p {
+      margin-top: .25rem;
+    margin-bottom: 1rem;
+}
+
 /* Gallery */
 #gallery {
   margin: 3rem 0;
