@@ -111,13 +111,13 @@ h2 span {
 
 /* Header */
 #header {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden;
-  text-align: center;
+      position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
 }
 
 #header img.hero-image { 
@@ -134,14 +134,16 @@ h2 span {
 
 .hero-text {
   position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%, -50%);
-  color: var(--lighter-yellow);
-  font-family: var(--primary-font);
-  text-align: center;
-  z-index: 3;
-  padding: 2rem;
-  border-radius: 1rem;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--lighter-yellow);
+    font-family: var(--primary-font);
+    text-align: center;
+    z-index: 3;
+    padding: 2rem;
+    border-radius: 1rem;
+    height: 100vh;
 }
 
 .overlay {
@@ -168,6 +170,16 @@ h2 span {
 
 #header p {
   font-size: 2rem;
+}
+
+.fa-solid, .fas {
+    font-weight: 900;
+    z-index: 3;
+    font-size: 4rem;
+    color: #bebe5e;
+    align-self: flex-end;
+    margin-top: auto;
+    padding: 0.5rem;
 }
 
 /* About section */
