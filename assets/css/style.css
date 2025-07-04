@@ -48,16 +48,12 @@ body {
 }
 
 
-h1 {
+h1,
+h2 {
   color: var(--lighter-yellow);
   font-family: var(--primary-font);
 }
 
-
-h2 {
-  color: var(--yellow);
-  font-family: var(--primary-font);
-}
 
 h3 {
   color: var(--green);
@@ -68,6 +64,13 @@ p {
   font-family: var(--secondary-font);
   font-size: 1.2rem;
   font-weight: 700;
+}
+
+h2 span {
+  background-color: #293b13;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 3rem;
 }
 
 /* Head */
