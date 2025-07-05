@@ -19,7 +19,7 @@ body {
   --pale-green: #bebe5e;
   --lavender: #d6c7e1; 
 
-  --fs-xl: 5rem;
+  --fs-xl: clamp(4.5rem, 5vw + 2rem, 9rem);
   --fs-reg: 1.5rem;
   
 }
@@ -68,7 +68,7 @@ h3 {
 
 p {
   font-family: var(--secondary-font);
-  font-size: 1.5rem; 
+  font-size: var(--fs-reg); 
   font-weight: 700;
 }
 
@@ -167,7 +167,7 @@ h2 span {
 }
 
 #header h1 {
-  font-size: 5rem;
+  font-size: var(--fs-xl);
   margin-top: 8rem;
 }
 
@@ -247,7 +247,7 @@ h2 span {
 
 /* Booking form */
 #booking-form {
-  font-size: 1.2rem;
+  font-size: var(--fs-reg);
   font-weight: 700;
   margin: 1rem;
 }
