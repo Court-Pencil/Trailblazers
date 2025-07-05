@@ -18,6 +18,10 @@ body {
   --yellow: #956f15; 
   --pale-green: #bebe5e;
   --lavender: #d6c7e1; 
+
+  --fs-xl: 5rem;
+  --fs-reg: 1.5rem;
+  
 }
 
 /* global styles */
@@ -111,7 +115,6 @@ h2 span {
 
 /* Header */
 #header {
-      position: relative;
     display: flex;
     justify-content: center;
     align-items: end;
