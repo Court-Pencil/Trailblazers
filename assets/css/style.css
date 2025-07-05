@@ -44,6 +44,7 @@ body {
   border-color: var(--pale-green);
   display: block;
   margin: auto;
+  font-size: var(--fs-reg);
 }
 
 .page-button:hover {
@@ -294,6 +295,12 @@ h2 span {
 
 /* Media queries */
 /* Medium devices and up */
+@media screen and (min-width: 32rem) {
+      #footer p {
+          font-size: 1.4rem;
+      }
+}
+
 @media screen and (min-width: 76.8rem) {
   .circle-about-image {
     width: 35rem;
@@ -305,7 +312,7 @@ h2 span {
   }
 
   .card-body {
-    min-height: 32rem;
+    flex-basis: 21rem;
   }
 
   .card-text-mt {
@@ -372,5 +379,10 @@ h2 span {
   .db-card-text {
     margin-top: 2.2rem;
   }
+
+  #contact-us {
+    margin-top: 0.75rem !important;
+}
+
 }
 
