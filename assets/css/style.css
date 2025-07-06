@@ -90,6 +90,7 @@ h2 span {
 
 .navbar-nav .nav-link {
   color: var(--lighter-yellow) !important;
+  font-size: 1.5rem;
 }
 
 .navbar-toggler-icon {
@@ -275,13 +276,13 @@ h2 span {
 
 #contact-us .social-links i {
   color: var(--pale-green);
-  font-size: 1.6rem;
+  font-size: 2rem;
   padding: 0 1rem;
 }
 
 #contact-us .social-links i:hover {
   color: #d6c7e1;
-  font-size: 1.6rem;
+  font-size: 2rem;
   padding: 0 1rem;
 }
 
@@ -290,6 +291,7 @@ h2 span {
   font-family: var(--primary-font);
   background-color: var(--green);
   color: var(--lighter-yellow);
+  font-size: 1.5rem;
 }
 
 /* Media queries */
@@ -312,7 +314,7 @@ h2 span {
   }
 
   .card {
-    min-height: 55rem;
+    min-height: 65rem;
   }
 
   .card-text-mt {
@@ -336,10 +338,20 @@ h2 span {
     text-align: left;
   }
 
-  
+  .card {
+    min-height: 68rem;
+  }
 
   .card-text-coastal {
     margin-top: 2.8rem;
+  }
+
+  #contact-us .social-links i {
+    font-size: 3rem;
+  }
+
+  #contact-us .social-links i:hover {
+    font-size: 3rem;
   }
 }
 
@@ -370,15 +382,22 @@ h2 span {
     padding-top: 1.5rem;
     padding-bottom: 0.25rem;
     margin-top: 3rem;
+    font-size: 2.25rem;
   }
 
-  .db-card-text {
-    margin-top: 2.2rem;
+
+  .card-text,
+  .card-footer p{
+    font-size: 2rem;
   }
 
   #contact-us {
     margin-top: 0.75rem !important;
 }
+
+.card-text, .card-footer p {
+        font-size: 2.27rem;
+    }
 
 }
 
