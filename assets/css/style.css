@@ -330,13 +330,13 @@ h2 span {
 
 /* Large devices and up */
 @media screen and (min-width: 992px) {
-  .about-content {
+  /* .about-content {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2rem;
     text-align: left;
-  }
+  } */
 
   .card {
     min-height: 68rem;
