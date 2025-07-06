@@ -20,8 +20,7 @@ body {
   --lavender: #d6c7e1; 
 
   --fs-xl: clamp(4.5rem, 5vw + 2rem, 9rem);
-  --fs-reg: 1.5rem;
-  
+  --fs-reg: clamp(1.7rem, 1.1rem + 1.5vw, 3.5rem);
 }
 
 /* global styles */
@@ -299,9 +298,10 @@ h2 span {
       #footer p {
           font-size: 1.4rem;
       }
+
 }
 
-@media screen and (min-width: 76.8rem) {
+@media screen and (min-width: 768px) {
   .circle-about-image {
     width: 35rem;
     min-height: 35rem;
@@ -311,8 +311,8 @@ h2 span {
     margin: 0 9rem;
   }
 
-  .card-body {
-    flex-basis: 21rem;
+  .card {
+    min-height: 55rem;
   }
 
   .card-text-mt {
@@ -327,7 +327,7 @@ h2 span {
 }
 
 /* Large devices and up */
-@media screen and (min-width: 99.2rem) {
+@media screen and (min-width: 992px) {
   .about-content {
     display: flex;
     align-items: center;
@@ -336,9 +336,7 @@ h2 span {
     text-align: left;
   }
 
-  .card-body {
-    min-height: 27rem;
-  }
+  
 
   .card-text-coastal {
     margin-top: 2.8rem;
@@ -346,7 +344,7 @@ h2 span {
 }
 
 /* XL devices and up */
-@media screen and (min-width: 120rem) {
+@media screen and (min-width: 1200px) {
   .card-body {
     min-height: 30rem;
   }
@@ -356,10 +354,8 @@ h2 span {
   }
 }
 
-@media screen and (min-width: 144rem) {
-  .card-body {
-    min-height: 31.8rem;
-  }
+@media screen and (min-width: 1440px) {
+
 
   .card-text-coastal {
     margin-top: 2.3rem;
