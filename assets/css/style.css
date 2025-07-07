@@ -19,7 +19,7 @@ body {
   --pale-green: #bebe5e;
   --lavender: #d6c7e1; 
 
-  --fs-xl: clamp(4.5rem, 5vw + 2rem, 9rem);
+  --fs-h2: clamp(4.5rem, 5vw + 2rem, 9rem);
   --fs-reg: clamp(1.7rem, 1.1rem + 1.5vw, 3.5rem);
 }
 
@@ -152,6 +152,7 @@ h2 span {
     padding: 2rem;
     border-radius: 1rem;
     height: 100vh;
+    f
 }
 
 .overlay {
@@ -172,7 +173,7 @@ h2 span {
 }
 
 #header h1 {
-  font-size: var(--fs-xl);
+  font-size: clamp(4.5rem, 5vw + 2rem, 9rem);
   margin-top: 8rem;
 }
 
@@ -309,7 +310,7 @@ h2 span {
 
 @media screen and (min-width: 768px) {
   .circle-about-image {
-    width: 35rem;
+    min-width: 35rem;
     min-height: 35rem;
   }
 
@@ -318,7 +319,7 @@ h2 span {
   }
 
   .card {
-    min-height: 65rem;
+    min-height: 68.5rem;
   }
 
   .card-text-mt {
@@ -330,12 +331,16 @@ h2 span {
     padding-bottom: 0.25rem;
     margin-top: 3rem;
   }
+
+  .card .page-button {
+    font-size: 2.25rem;
+  }
 }
 
 /* Large devices and up */
 @media screen and (min-width: 992px) {
   .card {
-    min-height: 68rem;
+    min-height: 72rem;
   }
 
   .card-text-coastal {
@@ -353,8 +358,8 @@ h2 span {
 
 /* XL devices and up */
 @media screen and (min-width: 1200px) {
-  .card-body {
-    min-height: 30rem;
+  .card {
+    min-height: 73rem;
   }
 
   #hero-image {
@@ -364,6 +369,7 @@ h2 span {
 
 @media screen and (min-width: 1440px) {
 
+  
 
   .card-text-coastal {
     margin-top: 2.3rem;
