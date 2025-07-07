@@ -60,6 +60,10 @@ h2 {
   font-family: var(--primary-font);
 }
 
+h2 {
+  font-size: var(--fs-xl);
+}
+
 
 h3 {
   color: var(--green);
@@ -330,14 +334,6 @@ h2 span {
 
 /* Large devices and up */
 @media screen and (min-width: 992px) {
-  /* .about-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    text-align: left;
-  } */
-
   .card {
     min-height: 68rem;
   }
