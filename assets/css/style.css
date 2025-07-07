@@ -79,7 +79,7 @@ p {
 h2 span {
   background-color: var(--green);
     border-radius: 0.5rem;
-    padding: 0.5rem;
+    padding: 0.5rem 5rem;
     margin: 3rem;
 }
 
@@ -322,6 +322,7 @@ h2 span {
     min-height: 68.5rem;
   }
 
+
   .card-text-mt {
     margin-top: 3.3rem;
   }
@@ -398,7 +399,7 @@ h2 span {
 }
 
 .card-text, .card-footer p {
-        font-size: 2.27rem;
+        font-size: 2.19rem;
     }
 
 }
