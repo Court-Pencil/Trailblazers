@@ -1,7 +1,6 @@
 # Trailblazers
 <!-- Link to website -->
-[Im an inline-style link] (url)
-![alt text](image-2.png)
+[Trailblazers](https://court-pencil.github.io/Trailblazers/)  
 <!-- Come back to this. this is place holder text -->
 Trailblazers is an inclusive website built for LGBTQ+ nature lovers looking to connect with others through hiking. It features a gallery, event listings with booking inquiries, contact details, and visible pricing (including student discounts). Designed with accessibility and responsive design in mind, it provides easy navigation, high-quality visuals, and all the info you need to hit the trails with new friends. 
 <!-- image of website on all screen sizes look at reference  -->
@@ -82,10 +81,9 @@ Trailblazers is an inclusive website built for LGBTQ+ nature lovers looking to c
 * First-time hikers  
 ## Wireframes
 The wireframes were designed using Balsamiq. Designed with mobile first practices, tablet and then website.
-<!-- Insert Wireframes -->
-![Wireframe-Mobile](docs/wireframe-mobile.pdf) 
-![Wireframe-Mobile](docs/wireframe-tablet.pdf)
-![Wireframe-Mobile](docs/wireframe-desktop.pdf)
+![Wireframe-Mobile](docs/wireframe-mobile.png) 
+![Wireframe-Mobile](docs/wireframe-tablet.png)
+![Wireframe-Mobile](docs/wireframe-desktop.png)
 
 ## Design Choices
 ### Typography
@@ -93,20 +91,26 @@ The font family choose for the Trailblazers website was Bree Serif for the prima
 
 ### Colour Scheme
 <!-- Add in colour scheme chart and constract block -->
-![alt text](image-1.png)    
-![alt text](image-1.png)   
+The colour scheme was chosen based on colours you find out in nature on a walk. The lavender was choosen as it is a reference to queer culture.  
 
-| CSS name       | HEX     |   |   |   |
-|----------------|---------|---|---|---|
-| green          | #293b31 |   |   |   |
-| lighter-yellow | #d19c1d |   |   |   |
-| yellow         | #956f15 |   |   |   |
-| pale-green     | #bebe5e |   |   |   |
-| lavender       | #d6c7e1 |   |   |   |
-|                |         |   |   |   |
+![Coolors scheme](docs/trailblazers-colour-scheme.png)    
+
+I used [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid") to check effective color pairings that support readability and to identify combinations that may hinder legibility due to insufficient contrast or visual discomfort.
+
+![Colour contrast grid](docs/colour-contrast-grid.png)   
+
+| CSS name             |  HEX       | Comment                                            |   |   |   |
+|----------------------|------------|----------------------------------------------------|---|---|---|
+|  green               | #293b31    | background colour of navbar, footer, button and h2 |   |   |   |
+| lighter yellow       | #D19C1D    | font colour on navbar, footer, h2, header          |   |   |   |
+|  pale-green          | #bebe5e    | icon colour and button font                        |   |   |   |
+| lavender             | #d6c7e1    | button hover colour, icon hover colour             |   |   |   |
+| Other Colors CSS Hex |            |                                                    |   |   |   |
+| green                | #198755    | colour for beginner difficulty                     |   |   |   |
+| yellow               | #ffc107    | colour for intermediate difficulty                 |   |   |   |
+| red                  | #dc3545    | colour for challenging difficulty                  |   |   |   |
 
 ### Images
-<!-- make pexel a hyperlink -->
 Images are taken from:
 * [pexel](https://www.pexels.com/)
 * [unsplash](https://unsplash.com/)
@@ -124,7 +128,7 @@ My website is repsonsive to all screen sizes. The breakpoints i am using are fro
 
 ## Features  
 <!-- Placeholder text -->
-This website offers a range of thoughtful and inclusive features designed to create a welcoming and accessible experience for all users. From the moment visitors land on the site, they are greeted with vibrant imagery and a clear call to action. The events section highlights upcoming hikes with detailed information, including dates, locations, and pricing—featuring student discounts to ensure inclusivity. A responsive booking form makes it easy to inquire about events, and the gallery showcases the spirit of the community through high-quality images. Easy navigation, clear layout, and a mobile-friendly design ensure users can explore and engage with the site on any device.
+This website offers a range of thoughtful, inclusive features designed to create a welcoming and accessible experience for all users. From the moment visitors arrive, they’re greeted with vibrant imagery and a clear call to action that invites exploration. The events section highlights upcoming hikes with detailed information on distance, duration, terrain, difficulty, and pricing, making it simple to find the perfect adventure. A responsive booking form allows users to easily inquire about or reserve spots for events, while the gallery captures the spirit of the community through high-quality photos. Intuitive navigation, a clear layout, and mobile-friendly design ensure that users can effortlessly explore and engage with the site on any device.
 ## Existing Features
 ### Header
 The header is consistent across all screen sizes. It contains a logo on the left and on the right, navigation links to the Gallery, Events, Contact and Home page. A prominent "Book Now" call-to-action button is positioned next to the navigation links, encouraging user engagement. Clear, user-friendly layout helps users orient themselves quickly with intitutive design.
@@ -133,12 +137,10 @@ The header is consistent across all screen sizes. It contains a logo on the left
 
 * High-quality background imagery to create a warm, inclusive first impression.
 
-* Call-to-action button encourages users to book a hike or view upcoming events.  
-
 ### Events
-* Lists upcoming hikes with dates, locations, and brief descriptions.
+* Lists upcoming hikes with duration, locations, and terrain.
 
-* Pricing is visible, with clear mention of student discounts.
+* Pricing is visible
 
 * Each event includes a “Book Now” button that links to the inquiry form.  
 
@@ -150,14 +152,17 @@ The header is consistent across all screen sizes. It contains a logo on the left
 * Encourages new users to get a feel for the experience before booking.  
 
 ### Booking Form
-* A responsive form that collects name, email, event type, date, and special requests.
+* A responsive form that collects name, email, event type, and special requests.
 
 * Includes form validation to ensure submissions are complete and accurate.
 
 * Confirmation message or redirect on successful submission.  
 
+## Contact section
+* Includes social media links to send messages to our team.
+
 ### Footer
-* Includes social media links and text saying 'Trailblazers made by court' with an apple emoji.
+* Includes 'Trailblazers made by court' with an apple emoji.
 
 * Designed to be accessible and mobile-friendly.
 
@@ -232,9 +237,9 @@ This website was extensively tested for functionality using both Chrome and Edge
 ## Lighthouse Testing
 The Trailblazers website has been tested in the Chrome Dev Tools and Microsoft Edge Dev Tools using Lighthouse Testing tool which inspects and scores the website for the following criteria:
 
-*Performance - how quickly a website loads and how quickly users can access it.
-*Accessibility - test analyses how well people who use assistive technologies can use your website.
-*Best Practices - checks whether the page is built on the modern standards of web development.
+* Performance - how quickly a website loads and how quickly users can access it.
+* Accessibility - test analyses how well people who use assistive technologies can use your website.
+* Best Practices - checks whether the page is built on the modern standards of web development.
 
 <!-- Insert images of lighthouse testing -->
 ![lighthouse testing images](https://lighthouse.com)  
