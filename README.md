@@ -83,9 +83,9 @@ Trailblazers is an inclusive website built for LGBTQ+ nature lovers looking to c
 ## Wireframes
 The wireframes were designed using Balsamiq. Designed with mobile first practices, tablet and then website.
 <!-- Insert Wireframes -->
-![Wireframe-Mobile](assests/images/New%20Wireframe%20Mobile.png) 
-![Wireframe-Mobile](assests/images/New%20Wireframe%20Tablet.png)
-![Wireframe-Mobile](assests/images/New%20Wireframe%20Desktop.png)
+![Wireframe-Mobile](docs/wireframe-mobile.pdf) 
+![Wireframe-Mobile](docs/wireframe-tablet.pdf)
+![Wireframe-Mobile](docs/wireframe-desktop.pdf)
 
 ## Design Choices
 ### Typography
