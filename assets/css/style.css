@@ -20,7 +20,7 @@ body {
   --lavender: #d6c7e1; 
 
   --fs-h2: clamp(4.5rem, 5vw + 2rem, 9rem);
-  --fs-reg: clamp(1.7rem, 1.1rem + 1.5vw, 3.5rem);
+  --fs-reg: clamp(1.7rem, 1.1rem + 1.1vw, 3.5rem);
 }
 
 /* global styles */
@@ -94,8 +94,9 @@ h2 span {
 
 .navbar-nav .nav-link {
   color: var(--lighter-yellow) !important;
-  font-size: 1.5rem;
+  font-size: 1.75rem;
 }
+
 
 .navbar-toggler-icon {
   filter: invert(38%) sepia(92%) saturate(500%) hue-rotate(20deg);
@@ -111,6 +112,7 @@ h2 span {
 .outline-btn {
   color: var(--pale-green);
   border-color: var(--pale-green);
+  font-size: 1.3rem;
 }
 
 .outline-btn:hover {
