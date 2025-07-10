@@ -324,7 +324,7 @@ h2 span {
   }
 
   .card {
-    min-height: 68.5rem;
+    min-height: 62.5rem;
   }
 
 
@@ -332,25 +332,19 @@ h2 span {
     margin-top: 3.3rem;
   }
 
-  .ddc-card-text {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
-    margin-top: 3rem;
-  }
-
   .card .page-button {
     font-size: 2.25rem;
+  }
+
+  .dbl {
+    margin-top: 3rem;
   }
 }
 
 /* Large devices and up */
 @media screen and (min-width: 992px) {
   .card {
-    min-height: 72rem;
-  }
-
-  .card-text-coastal {
-    margin-top: 2.8rem;
+    min-height: 64rem;
   }
 
   #contact-us .social-links i {
@@ -365,7 +359,7 @@ h2 span {
 /* XL devices and up */
 @media screen and (min-width: 1200px) {
   .card {
-    min-height: 73rem;
+    min-height: 66rem;
   }
 
   #hero-image {
@@ -374,26 +368,6 @@ h2 span {
 }
 
 @media screen and (min-width: 1440px) {
-
-  
-
-  .card-text-coastal {
-    margin-top: 2.3rem;
-  }
-
-  .card-text-tfl {
-    margin-top: 3rem;
-    padding-top: 1.5rem;
-  }
-
-  .ddc-card-text {
-    padding-top: 1.5rem;
-    padding-bottom: 0.25rem;
-    margin-top: 3rem;
-    font-size: 2.25rem;
-  }
-
-
   .card-text,
   .card-footer p{
     font-size: 2rem;
