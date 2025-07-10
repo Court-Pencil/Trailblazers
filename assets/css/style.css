@@ -230,6 +230,10 @@ h2 span {
     margin-bottom: 1rem;
 }
 
+.card p {
+  font-size: 1.75rem;
+}
+
 /* Gallery */
 #gallery {
   margin: 3rem 0 2rem 0;
