@@ -53,6 +53,9 @@ body {
   border-color: var(--lavender);
 }
 
+h1 {
+  font-size: calc(1.375rem + 1.5vw);
+}
 
 h1,
 h2 {
