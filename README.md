@@ -57,7 +57,7 @@ Trailblazers is an inclusive website built for LGBTQ+ nature lovers looking to c
 
 ## User Stories 
 
-* As a user, I want clear information about where the hikes take place, what to expect(diffculty and duration) and how to prepare.
+* As a user, I want clear details about each hike — including location, date, duration, and terrain — so I can decide if it’s right for me.
 * As a user, I want to reassurance as a first-time hiker that there are events that are beginner-friendly.
 * As a user, I want to browse a gallery to get a feel for the community vibe.
 * As a user, I want a simple and accessible way to book a hike and find contact information.
@@ -219,16 +219,16 @@ I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). 
 <!-- did they come back with errors. Include screen shots -->
 
 ## User Story Testing
-|   User Story   | Result             | Pass                | Screenshot    |
-|--------------|------------------------|-----------------------------------------------------|----------------------------------------------------|
-| 1            | First-time visitor     | Learn about the hiking group                        | I can decide if I want to join a hike              |
-| 2            | Regular hiker          | View upcoming events                                | I can plan my next hike                            |
-| 3            | New member             | Submit a booking inquiry form                       | I can reserve a spot for a hike                    |
-| 4            | Student                | See available discounts                             | I can participate at a lower cost                  |
-| 5            | Mobile user            | Navigate easily on my phone                         | I can use the site on the go                       |
-| 6            | Curious browser        | View photos from past hikes                         | I can get a feel for the experience                |
-| 7            | Event planner          | Access contact details                              | I can reach out with questions or suggestions      |
-| 8            | Inclusive community-seeker | Join a safe and welcoming group                   | I can hike without fear of discrimination          |
+|                                                              User Story                                                             |                                   Result                                  | Pass | Screenshot |   |   |
+|:-----------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------:|:----:|:----------:|---|---|
+| As a user, I want clear details about each hike - including location,date,duration and terrain. So i can decide if its right for me | hike cards have clearly laid out information with icons                   | yes  |            |   |   |
+| As a user, I want to reassurance as a first-time hiker that there are events that are beginner-friendly.                            | Difficulty levels shown on cards. Encouraging language throughout website | yes  |            |   |   |
+| As a user, I want to browse a gallery to get a feel for the community vibe.                                                         | Gallery shows hikers and scenery, conveying friendly, social atmosphere.  | yes  |            |   |   |
+| As a user, I want a simple and accessible way to book a hike and find contact information.                                          | Booking form is easy to use, with clear contact section and social icons. | yes  |            |   |   |
+| As a user, I want to be able to see this is a inclusive space.                                                                      | Inclusive language in About section and message under booking form        | yes  |            |   |   |
+| As a user, I want to be to use the website on phone, tablet or desktop.                                                             | Fully responsive; tested on multiple screen sizes.                        | yes  |            |   |   |
+|                                                                                                                                     |                                                                           |      |            |   |   |
+|                                                                                                                                     |                                                                           |      |            |   |   |without fear of discrimination          |
 
 ## Feature Testing
 This website was extensively tested for functionality using both Chrome and Edge developer tools.
