@@ -188,12 +188,16 @@ https://www.audioeye.com/color-contrast-checker/
 ## Testing
 ### Bugs
 <!-- Write some lines about the testing -->
-| Bug        | Status                         | Description | Steps To Resolve     |
-|----------------|--------------------------------------|------------------|------------|
-| Header         | Site title and navigation menu       | All pages        | Completed  |
-| Events Section | Lists hikes with dates and prices     | Events page      | Completed  |
-| Booking Form   | Allows users to request event info    | Contact page     | Completed  |
-| Gallery        | Displays images from past events      | Gallery page     | Completed  |
+|                         Bug                         |   Status   |                                                                 Description                                                                |                                                              Steps To Resolve                                                              |   |   |
+|:---------------------------------------------------:|:----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|---|---|
+| Hero image not <br>filling <br>full screen          | fixed      | hero image was not filling <br>the whole header viewport.                                                                                  |                                                                                                                                            |   |   |
+| trouble with opacity <br>on hero image              | fixed      | The hero image was a background image. I added opacity in css to the image,<br>it only applied to text.<br>                                | Changed the background image to an img tag in HTML<br>and styled in CSS. Added a div with the class of overlay<br>to add opacity in CSS.   |   |   |
+| incorrect image aspect ratio                        | unresolved | While using lighthouse testing on chrome devtools, i found that my card imgs were the incorrect aspect ratio.                              |                                                                                                                                            |   |   |
+| removing padding from bootstrap card footer         | fixed      | I wanted to remove the padding from the footer on Bootstrap's cards for aesthetics                                                         | had to add a applied !important to override bootstraps code                                                                                |   |   |
+| card text heights on laptop are constantly changing | unresolved |                                                                                                                                            |                                                                                                                                            |   |   |
+| invalid column class                                | fixed      | accidently joined two column classes together                                                                                              | separated column classes with a space                                                                                                      |   |   |
+| phone input used type=number                        | fixed      | The phone input was set up as a number field, so it showed things like arrows and allowed odd formats that aren’t right for phone numbers. | Changed to type="tel" so it works better for phone numbers and shows the right keyboard on phones.                                         |   |   |
+|                                                     |            |                                                                                                                                            |                                                                                                                                            |   |   |
 
 ### Responsiveness Tests
 <!-- Write some lines about the responsiveness testing   -->
