@@ -142,7 +142,6 @@ h2 span {
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: var(--lighter-yellow);
     font-family: var(--primary-font);
     text-align: center;
     z-index: 3;
@@ -162,7 +161,7 @@ h2 span {
 #header p {
   position: relative;
     z-index: 3;
-    color: #d19c1d;
+    color: var(--pale-green);
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
     text-shadow: -2px -2px 11px rgba(0, 0, 0, 1);
