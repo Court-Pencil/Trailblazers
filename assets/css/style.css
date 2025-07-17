@@ -79,6 +79,10 @@ h2 span {
     padding: 0.5rem 5rem;
 }
 
+section {
+  padding: 4rem;
+}
+
 /* Head */
 #navbar {
   background-color: var(--green);
