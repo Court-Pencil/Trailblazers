@@ -1,7 +1,4 @@
-/* Google fonts import */
-@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
-/* CSS Variables */
 html {
   font-size: 10px;
 }
@@ -150,16 +147,17 @@ section {
   padding: 1.5rem;
   color: var(--pale-green);
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
+  
 }
 
 .hero-text h1 {
-  font-size: clamp(2.5rem, 5vw + 2rem, 9rem);
+  font-size: clamp(4.5rem, 5vw + 2rem, 9rem);
   margin-bottom: 1rem;
   margin-top: 18rem;
 }
 
 .hero-text p {
-  font-size: clamp(1.25rem, 2vw + 1.2rem, 4rem);
+  font-size: clamp(2.5rem, 2vw + 1.2rem, 4rem);
   margin: 2.6rem;
   color: var(--lighter-yellow);
 }
@@ -172,7 +170,7 @@ section {
 }
 
 .fa-solid {
-  font-size: clamp(1.5rem, 2vw, 4rem);
+  font-size: clamp(2.5rem, 2vw, 4rem);
   color: var(--lighter-yellow);
 }
 
@@ -209,11 +207,6 @@ section {
   padding: 0rem 1rem !important;
 }
 
-.card-footer span p {
-      margin-top: .25rem;
-    margin-bottom: 1rem;
-}
-
 .card p {
   font-size: 1.75rem;
 }
@@ -221,22 +214,6 @@ section {
 /* Gallery */
 #gallery {
   margin: 3rem 0 2rem 0;
-}
-
-#gallery.container {
-  margin: 2rem auto;
-}
-
-#gallery .image-container {
-  columns: 25rem;
-  gap: 1.5rem;
-}
-
-#gallery .image-container img {
-  margin-bottom: 1rem;
-  border-radius: 0.5rem;
-  width: 100%;
-  break-inside: avoid;
 }
 
 /* Booking form */
@@ -289,7 +266,12 @@ section {
 
 /* Media queries */
 /* Medium devices and up */
-@media screen and (min-width: 32rem) {
+@media screen and (min-width: 320px) {
+      .hero-text {
+        padding: 0;
+      }
+
+
       #footer p {
           font-size: 1.4rem;
       }
@@ -316,11 +298,6 @@ section {
 
   .card {
     min-height: 62.5rem;
-  }
-
-
-  .card-text-mt {
-    margin-top: 3.3rem;
   }
 
   .card .page-button {
@@ -361,10 +338,7 @@ section {
 }
 
 @media screen and (min-width: 1440px) {
-      .hero-text
- {
-        margin-top: 23rem;
-    }
+     
 
     .fa-solid
 
