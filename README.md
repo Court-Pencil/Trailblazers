@@ -201,18 +201,17 @@ https://www.audioeye.com/color-contrast-checker/
 
 ### Responsiveness Tests
 <!-- Write some lines about the responsiveness testing   -->
-| Size      | Device Example   | Navigation       | Element Alignments | Content Placement | Functionality       | Notes                  |
-|-----------|------------------|------------------|---------------------|--------------------|----------------------|-------------------------|
-| XS        | Mobile (320px)   | Hamburger menu    | Centered            | Stacked vertically | Fully functional     | Optimized for touch     |
-| SM        | Mobile (375px)   | Hamburger menu    | Centered            | Stacked vertically | Fully functional     | Slightly more spacing   |
-| MD        | Tablet (768px)   | Top nav visible   | Centered            | Two-column layout  | Fully functional     | Adjusted image scaling  |
-| LG        | Small laptop     | Full nav bar      | Left-aligned        | Grid layout        | Fully functional     | Good readability        |
-| XL        | Desktop (1200px) | Full nav bar      | Left-aligned        | Wide grid layout   | Fully functional     | Spacious layout         |
-| XXL       | Large desktop    | Full nav bar      | Left-aligned        | Extra-wide layout  | Fully functional     | Lots of white space     |
-| Print     | N/A              | N/A               | Auto-aligned        | Simplified         | Read-only            | Print-friendly styling  |
-| Zoom 75%  | All devices      | Responsive        | Scales down         | Reflows correctly  | Fully functional     | Text remains legible    |
-| Zoom 125% | All devices      | Responsive        | Scales up           | Reflows correctly  | Fully functional     | Good accessibility      |
-| Portrait  | Tablet/Phone     | Responsive        | Centered            | Stacked            | Fully functional     | Adapts orientation well |
+| Size |  Device Example | Navigation | Element Alignments | Content Placement | Functionality | Notes |
+|:----:|:---------------:|:----------:|:------------------:|:-----------------:|:-------------:|:-----:|
+| sm   | iphone 15 pro   | Good       | Good               | Good              | Good          |       |
+| sm   | iPhone SE       | Good       | Good               | Good              | Good          |       |
+| sm   | galaxy S22      | Good       | Good               | Good              | Good          |       |
+| md   | iPad mini       | Good       | Good               | Good              | Good          |       |
+| md   | iPad Air        | Good       | Good               | Good              | Good          |       |
+| lg   | iPad Pro        | Good       | Good               | Good              | Good          |       |
+| xl   | Mackbook Air    | Good       | Good               | Good              | Good          |       |
+| xxl  | MacBook Air 13" | Good       | Good               | Good              | Good          |       |
+| xxl  | Desktop         | Good       | Good               | Good              | Good          |       |
 
 ## Code Validation
 ### HTML
@@ -269,7 +268,7 @@ The website is now live at https://Court-pencil.com.
 
 Any changes required to the website, they can be made, committed and pushed to GitHub.
 
-### To Frok the Project
+### To Fork the Project
 Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
 
 * Log in to GitHub.

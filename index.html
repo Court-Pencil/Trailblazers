@@ -98,23 +98,33 @@
       </div>
     </nav>
 
-    <header id="header" class="container">
-      <div class="row">
-        <img
-          class="hero-image"
-          src="assets/images/header-image.webp"
-          alt="A group of hikers on a bridge waving joyfully"
-           alt="Responsive image"
-        >
-        <div class="overlay"></div>
-        <div class="hero-text">
-        <h1>Welcome to Trailblazers!</h1>
-        <p>Where chosen family meets chosen trails</p>
-        </div>
-        <i class="fa-solid fa-computer-mouse"></i>
-        <i class="fa-solid fa-arrow-down"></i>
-      </div>
-    </header>
+  <header id="header">
+  <img
+    class="hero-image"
+    src="assets/images/header-image-768.webp"
+    srcset="
+      assets/images/header-image-480.webp 480w,
+      assets/images/header-image-768.webp 768w,
+      assets/images/header-image-992.webp 992w,
+      assets/images/header-image-1200.webp 1200w"
+    sizes="100vw"
+    alt="A group of hikers on a bridge waving joyfully"
+    loading="eager"
+    fetchpriority="high"
+    decoding="async"
+  />
+
+  <div class="hero-text">
+    <h1>Welcome to Trailblazers!</h1>
+    <p>Where chosen family meets chosen trails</p>
+  </div>
+
+  <div class="hero-icons">
+    <i class="fa-solid fa-computer-mouse"></i>
+    <i class="fa-solid fa-arrow-down"></i>
+  </div>
+</header>
+
 
     <main>
       <section id="about" class="container">
@@ -151,7 +161,7 @@
           <div class="col-12 col-md-6 col-xl-3 my-3">
             <div class="card">
               <img
-                src="assets/images/coastal-walk.webp"
+                src="assets/images/coastal-walk (2).webp"
                 class="card-img-top"
                 loading="lazy"
                 alt="A dirt path winds past yellow gorse to a cliff above a windswept, cloudy sea.">
@@ -183,7 +193,7 @@
           <div class="col-12 col-md-6 col-xl-3 my-3">
             <div class="card">
               <img
-                src="assets/images/f-forest-loop.webp"
+                src="assets/images/f-forest-loop (1) (1).webp"
                 class="card-img-top"
                 loading="lazy"
                 alt="A forest path winds through tall trees and thick underbrush, roots crossing the dirt trail"
@@ -216,7 +226,7 @@
           <div class="col-12 col-md-6 col-xl-3 my-3">
             <div class="card">
               <img
-                src="assets/images/devils-dyke.webp"
+                src="assets/images/devils-dyke (1) (1).webp"
                 class="card-img-top"
                 loading="lazy"
                 alt="A winding path cut through a green valley with rolling hills and scattered trees around"
@@ -252,7 +262,7 @@
           <div class="col-12 col-md-6 col-xl-3 my-3">
             <div class="card">
               <img
-                src="assets/images/ditchling-beacon.webp"
+                src="assets/images/ditchling beacon.webp"
                 class="card-img-top"
                 loading="lazy"
                 alt="A narrow path winds through green hills, flanked by scattered trees and dense shrubs."
