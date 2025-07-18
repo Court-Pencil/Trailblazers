@@ -334,9 +334,9 @@ section {
 
 /* Large devices and up */
 @media screen and (min-width: 992px) {
-    .hero-text {
-      margin-top: ;
-    }
+        .hero-text {
+        margin-top: 11rem;
+        }
 
   .card {
     min-height: 64rem;
@@ -361,6 +361,17 @@ section {
 }
 
 @media screen and (min-width: 1440px) {
+      .hero-text
+ {
+        margin-top: 23rem;
+    }
+
+    .fa-solid
+
+ {
+    font-weight: 900;
+    font-size: 3rem;
+}
   #contact-us {
     margin-top: 0.75rem !important;
 }
