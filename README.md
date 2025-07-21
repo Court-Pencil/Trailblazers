@@ -93,11 +93,11 @@ The font family choose for the Trailblazers website was Bree Serif for the prima
 <!-- Add in colour scheme chart and constract block -->
 The colour scheme was chosen based on colours you find out in nature on a walk. The lavender was choosen as it is a reference to queer culture.  
 
-![Coolors scheme](docs/trailblazers-colour-scheme.png)    
+![Coolors scheme](DOCS/trailblazers-colour-scheme.png)    
 
 I used [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid") to check effective color pairings that support readability and to identify combinations that may hinder legibility due to insufficient contrast or visual discomfort.
 
-![Colour contrast grid](docs/colour-contrast-grid.png)   
+![Colour contrast grid](DOCS/colour-contrast-grid.png)   
 
 | CSS name             |  HEX       | Comment                                            |   |   |   |
 |----------------------|------------|----------------------------------------------------|---|---|---|
@@ -173,8 +173,8 @@ The header is consistent across all screen sizes. It contains a logo on the left
 * CSS
 
 ### Libraries & Framework
-* [Google Fonts](https://fonts.google.com/selection).
-* [Fav Icon](https://fontawesome.com/).
+* [Google Fonts](https://fonts.google.com/selection)
+* [Fav Icon](https://fontawesome.com/)
 * [Bootstrap](https://getbootstrap.com/)
 
 ### Tools
