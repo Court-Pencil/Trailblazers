@@ -1,4 +1,3 @@
-
 html {
   font-size: 10px;
 }
@@ -10,17 +9,15 @@ body {
 :root {
   --primary-font: "Bree Serif", serif;
   --secondary-font: "Lato", sans-serif;
-  --green: #293b31; 
+  --green: #293b31;
   --lighter-yellow: #d19c1d;
-   
-  --pale-green: #bebe5e;
-  --lavender: #d6c7e1; 
 
-  
+  --pale-green: #bebe5e;
+  --lavender: #d6c7e1;
+
   --fs-reg: clamp(1.7rem, 1.1rem + 1.1vw, 3.5rem);
 }
 
-/* global styles */
 .dark-background {
   color: var(--pale-green);
 }
@@ -66,26 +63,23 @@ h3 {
 
 p {
   font-family: var(--secondary-font);
-  font-size: var(--fs-reg); 
+  font-size: var(--fs-reg);
   font-weight: 700;
 }
 
 h2 span {
   background-color: var(--green);
-    border-radius: 0.5rem;
-    padding: 0.5rem 5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 5rem;
 }
 
 section {
   padding: 4rem;
 }
 
-/* Head */
 #navbar {
   background-color: var(--green);
 }
-
-
 
 .navbar-toggler {
   border-color: var(--green);
@@ -100,7 +94,6 @@ section {
   filter: invert(38%) sepia(92%) saturate(500%) hue-rotate(20deg);
 }
 
-/* logo */
 #logo {
   max-width: 4.5rem;
   max-height: 4.5rem;
@@ -118,63 +111,6 @@ section {
   border-color: var(--lavender);
 }
 
-/* Header */
-#header {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden;
-  text-align: center;
-  padding: 2rem 1rem;
-}
-
-.hero-image {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  z-index: 0;
-  filter: brightness(0.55); 
-}
-
-.hero-text {
-  font-family: var(--primary-font);
-  z-index: 1;
-  padding: 1.5rem;
-  color: var(--pale-green);
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8);
-  
-}
-
-.hero-text h1 {
-  font-size: clamp(4.5rem, 5vw + 2rem, 9rem);
-  margin-bottom: 1rem;
-  margin-top: 18rem;
-}
-
-.hero-text p {
-  font-size: clamp(2.5rem, 2vw + 1.2rem, 4rem);
-  margin: 2.6rem;
-  color: var(--lighter-yellow);
-}
-
-.hero-icons {
-  display: flex;
-  gap: 1rem;
-  z-index: 1;
-  margin-bottom: 2rem;
-}
-
-.fa-solid {
-  font-size: clamp(2.5rem, 2vw, 4rem);
-  color: var(--lighter-yellow);
-}
-
-/* About section */
 .about-content {
   display: block;
   text-align: center;
@@ -189,7 +125,6 @@ section {
   margin: 2rem auto;
 }
 
-/* hikes */
 .card-img,
 .card-img-bottom,
 .card-img-top {
@@ -197,7 +132,6 @@ section {
   max-height: 30rem;
   min-height: 30rem;
 }
-
 
 .card {
   border: none;
@@ -211,10 +145,6 @@ section {
   font-size: 1.75rem;
 }
 
-/* Gallery */
-
-
-/* Booking form */
 #booking-form {
   font-size: var(--fs-reg);
   font-weight: 700;
@@ -232,12 +162,10 @@ section {
   align-items: center;
 }
 
-/* Success page */
 #success {
   padding-top: 10rem;
 }
 
-/* Contact section */
 #contact-us {
   background-color: var(--green);
 }
@@ -254,7 +182,6 @@ section {
   padding: 0 1rem;
 }
 
-/* footer */
 #footer {
   font-family: var(--primary-font);
   background-color: var(--green);
@@ -262,19 +189,15 @@ section {
   font-size: 1.5rem;
 }
 
-/* Media queries */
-/* Medium devices and up */
-@media screen and (min-width: 320px) {
-      .hero-text {
-        padding: 0;
-        margin-top: 15rem;
-      }
+@media screen and (min-width: 375px) {
+  .hero-text {
+    padding: 0;
+    margin-top: 12rem;
+  }
 
-
-      #footer p {
-          font-size: 1.4rem;
-      }
-
+  #footer p {
+    font-size: 1.4rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -283,11 +206,11 @@ section {
     min-height: 35rem;
   }
 
- .hero-text{
-  margin-top: 22rem;
- }
+  .hero-text {
+    margin-top: 22rem;
+  }
 
-  .fa-solid{
+  .fa-solid {
     font-size: 2.5rem;
   }
 
@@ -308,15 +231,14 @@ section {
   }
 }
 
-/* Large devices and up */
 @media screen and (min-width: 992px) {
-        .hero-text {
-        margin-top: 18rem;
-        }
+  .hero-text {
+    margin-top: 18rem;
+  }
 
-        .hero-image {
-          margin-top: 6rem;
-        }
+  .hero-image {
+    margin-top: 6rem;
+  }
 
   .card {
     min-height: 64rem;
@@ -331,31 +253,23 @@ section {
   }
 }
 
-/* XL devices and up */
 @media screen and (min-width: 1200px) {
-    
-
   .card {
     min-height: 66rem;
   }
 }
 
 @media screen and (min-width: 1440px) {
-     
-
-    .fa-solid
-
- {
+  .fa-solid {
     font-weight: 900;
     font-size: 3rem;
-}
+  }
   #contact-us {
     margin-top: 0.75rem !important;
+  }
+
+  .card-text,
+  .card-footer p {
+    font-size: 2.19rem;
+  }
 }
-
-.card-text, .card-footer p {
-        font-size: 2.19rem;
-    }
-
-}
-
