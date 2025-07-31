@@ -1,17 +1,12 @@
 # Trailblazers
 
-<!-- Link to website -->
-
 [Trailblazers](https://court-pencil.github.io/Trailblazers/)
 
 <!-- Come back to this. this is place holder text -->
 
-Trailblazers is an inclusive website built for LGBTQ+ nature lovers looking to connect with others through hiking. It features a gallery, event listings with booking inquiries, contact details, and visible pricing (including student discounts). Designed with accessibility and responsive design in mind, it provides easy navigation, high-quality visuals, and all the info you need to hit the trails with new friends.
+Trailblazers is an inclusive website built for LGBTQ+ nature lovers looking to connect with others through hiking. It features a gallery, event listings with booking inquiries, contact details, and visible pricing. Designed with accessibility and responsive design in mind, it provides easy navigation, high-quality visuals, and all the info you need to hit the trails with new friends.
 
-<!-- image of website on all screen sizes look at reference  -->
-
-![image of website on all screen sizes] (url)
-![alt text](image-1.png)
+![image of website on all screen sizes](docs/website-view.png)
 
 [Contents]()
 
@@ -95,6 +90,7 @@ The final design of the Trailblazers site evolved from the original wireframes t
 ![Wireframe-Mobile](docs/wireframe-mobile.png)
 ![Wireframe-Mobile](docs/wireframe-tablet.png)
 ![Wireframe-Mobile](docs/wireframe-desktop.png)
+docs\trailblazers-colour-scheme.png
 
 ## Design Choices
 
@@ -223,8 +219,6 @@ The header is consistent across all screen sizes. It contains a logo on the left
 ## Testing
 
 ### Bugs
-
-<!-- Write some lines about the testing -->
 
 |                         Bug                         |   Status   |                                                                 Description                                                                |                                                              Steps To Resolve                                                              |   |   |
 |:---------------------------------------------------:|:----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|---|---|
