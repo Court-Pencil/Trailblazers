@@ -189,6 +189,14 @@ section {
   font-size: 1.5rem;
 }
 
+#booking-form {
+  margin-top: 4rem;
+}
+
+#about {
+  margin-top: 4rem;
+}
+
 @media screen and (min-width: 375px) {
   .hero-text {
     padding: 0;
@@ -215,7 +223,7 @@ section {
   }
 
   #booking-form {
-    margin: 0 9rem;
+    margin: 4rem 9rem;
   }
 
   .card {
