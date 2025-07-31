@@ -6,7 +6,7 @@
 
 Trailblazers is an inclusive website built for LGBTQ+ nature lovers looking to connect with others through hiking. It features a gallery, event listings with booking inquiries, contact details, and visible pricing. Designed with accessibility and responsive design in mind, it provides easy navigation, high-quality visuals, and all the info you need to hit the trails with new friends.
 
-![image of website on all screen sizes](docs/website-view.png)
+![image of website on all screen sizes](docs/screen-view.png)
 
 [Contents]()
 
