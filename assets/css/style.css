@@ -170,6 +170,10 @@ section {
   background-color: var(--green);
 }
 
+#contact-us p {
+  color: var(--lighter-yellow);
+}
+
 #contact-us .social-links i {
   color: var(--pale-green);
   font-size: 2rem;
