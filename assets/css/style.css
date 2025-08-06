@@ -200,7 +200,12 @@ section {
 #about {
   margin-top: 4rem;
 }
-
+@media screen and (max-width: 383px) {
+  #beginnersguide h2 span {
+    padding: 0.5rem 2rem;
+  }
+  
+}
 @media screen and (min-width: 375px) {
   .hero-text {
     padding: 0;
