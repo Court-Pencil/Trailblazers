@@ -263,16 +263,14 @@ I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). 
 
 ## User Story Testing
 
-|                                                             User Story                                                              |                                  Result                                   | Pass | Screenshot |     |     |
-| :---------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------: | :--: | :--------: | --- | --- | ------------------------------ |
-| As a user, I want clear details about each hike - including location,date,duration and terrain. So i can decide if its right for me |          hike cards have clearly laid out information with icons          | yes  |            |     |     |
-|              As a user, I want to reassurance as a first-time hiker that there are events that are beginner-friendly.               | Difficulty levels shown on cards. Encouraging language throughout website | yes  |            |     |     |
-|                             As a user, I want to browse a gallery to get a feel for the community vibe.                             | Gallery shows hikers and scenery, conveying friendly, social atmosphere.  | yes  |            |     |     |
-|                     As a user, I want a simple and accessible way to book a hike and find contact information.                      | Booking form is easy to use, with clear contact section and social icons. | yes  |            |     |     |
-|                                   As a user, I want to be able to see this is a inclusive space.                                    |    Inclusive language in About section and message under booking form     | yes  |            |     |     |
-|                               As a user, I want to be to use the website on phone, tablet or desktop.                               |            Fully responsive; tested on multiple screen sizes.             | yes  |            |     |     |
-|                                                                                                                                     |                                                                           |      |            |     |     |
-|                                                                                                                                     |                                                                           |      |            |     |     | without fear of discrimination |
+| **User Story**                                                                                                                                     | **Result**                                                                                                   | **Pass** |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|:--------:|
+| As a user, I want clear details about each hike – including location, date, duration, and terrain, so I can decide if it's right for me           | Hike cards have clearly laid out information with icons                                                        |   ✅     |
+| As a user, I want reassurance as a first-time hiker that there are events that are beginner-friendly                                              | Difficulty levels shown on cards. Encouraging language throughout website. Beginner’s Guide to Hiking added. |   ✅     |
+| As a user, I want to browse a gallery to get a feel for the community vibe                                                                        | Gallery shows hikers and scenery, conveying friendly, social atmosphere                                        |   ✅     |
+| As a user, I want a simple and accessible way to book a hike and find contact information                                                         | Booking form is easy to use, with clear contact section and social icons                                       |   ✅     |
+| As a user, I want to be able to see this is an inclusive space, without fear of discrimination                                                    | Inclusive language in About section and message under booking form                                             |   ✅     |
+| As a user, I want to be able to use the website on phone, tablet, or desktop                                                                      | Fully responsive; tested on multiple screen sizes                                                              |   ✅     |
 
 ## Feature Testing
 
