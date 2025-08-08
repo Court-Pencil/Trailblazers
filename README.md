@@ -251,15 +251,18 @@ The header is consistent across all screen sizes. It contains a logo on the left
 
 ### HTML
 
-I have used [W3C HTML Validation Service](https://validator.w3.org/). I have tested [insert number of pages here].
+I have used [W3C HTML Validation Service](https://validator.w3.org/). I have tested 4 pages. The tests came back with 10 errors that i corrected as shown in the screenshots.  
+![Screenshot of some errors](docs\html-validation.png)
+![Screenshot of some errors](docs\html-validation1.png)
+![Screenshot of some errors](docs\html-validation2.png)
+![Corrected errors](docs\corrected-html-validations.png)
 
-<!-- did they come back with errors. Include screen shots -->
+
 
 ### CSS
 
-I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). I have tested [insert number of pages here].
-
-<!-- did they come back with errors. Include screen shots -->
+I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). I have tested 4 pages. It passed the first time.
+![Screenshot of CSS validation test](docs\css-validator.png)
 
 ## User Story Testing
 
