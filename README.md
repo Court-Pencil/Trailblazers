@@ -2,9 +2,7 @@
 
 [Trailblazers](https://court-pencil.github.io/Trailblazers/)
 
-<!-- Come back to this. this is place holder text -->
-
-Trailblazers is an inclusive website built for LGBTQ+ nature lovers looking to connect with others through hiking. It features a gallery, event listings with booking inquiries, contact details, and visible pricing. Designed with accessibility and responsive design in mind, it provides easy navigation, high-quality visuals, and all the info you need to hit the trails with new friends.
+Trailblazers is an inclusive website built for LGBTQ+ nature lovers seeking connection through hiking. It features a vibrant gallery, detailed event listings with visible pricing and booking inquiries, a beginner-friendly hiking guide, and accessible contact options. Designed with responsiveness and accessibility in mind, the site offers intuitive navigation, high-quality visuals, and all the information needed to hit the trails with new friends.
 
 ![image of website on all screen sizes](docs/screen-view.png)
 
@@ -140,57 +138,110 @@ My website is repsonsive to all screen sizes. The breakpoints i am using are fro
 
 ## Features
 
-<!-- Placeholder text -->
+- Mobile-First Responsive Design – Built with a mobile-first approach to ensure the site looks and works seamlessly on phones, tablets, and desktops.
 
-This website offers a range of thoughtful, inclusive features designed to create a welcoming and accessible experience for all users. From the moment visitors arrive, they’re greeted with vibrant imagery and a clear call to action that invites exploration. The events section highlights upcoming hikes with detailed information on distance, duration, terrain, difficulty, and pricing, making it simple to find the perfect adventure. A responsive booking form allows users to easily inquire about or reserve spots for events, while the gallery captures the spirit of the community through high-quality photos. Intuitive navigation, a clear layout, and mobile-friendly design ensure that users can effortlessly explore and engage with the site on any device.
+- Hero Section – A welcoming hero banner with clear branding and an introduction to the group’s purpose.
+
+- Upcoming Hikes Section – Lists each planned hike with full details, including date, distance, duration, terrain type, difficulty level, and price.
+
+- Booking/Contact Form – Allows visitors to inquire about or sign up for events directly through the site.
+
+- Gallery – Displays photos from past hikes, capturing the group’s inclusive and adventurous atmosphere.
+
+- Intuitive Navigation – Simple, clear menu structure for quick access to all pages.
+
+- Consistent Styling – Nature-inspired color palette, accessible typography, and clean layout for readability and visual appeal.
+
+
+
+
 
 ## Existing Features
 
 ### Header
 
-The header is consistent across all screen sizes. It contains a logo on the left and on the right, navigation links to the Gallery, Events, Contact and Home page. A prominent "Book Now" call-to-action button is positioned next to the navigation links, encouraging user engagement. Clear, user-friendly layout helps users orient themselves quickly with intitutive design.
+The header maintains a consistent and responsive layout across all screen sizes. On larger screens, it features a logo on the left and navigation links to the Gallery, Events, Contact, and Home pages on the right, alongside a prominent “Book Now” call-to-action button. On smaller screens, the navigation adapts into a mobile-friendly menu. The clear, user-friendly design helps users orient themselves quickly with intuitive and accessible navigation
 
 ### Home page
 
-- Welcoming landing section with a bold mission statement.
+- Welcoming Landing Section: The homepage opens with a bold, affirming mission statement that immediately sets the tone for inclusivity and adventure.  
 
-- High-quality background imagery to create a warm, inclusive first impression.
+- High-Quality Background Imagery: The hero section features a warm, nature-inspired image that evokes a sense of belonging and exploration—perfect for your queer-friendly hiking theme.
+
 
 ### Events
 
-- Lists upcoming hikes with duration, locations, and terrain.
+- Upcoming Hikes Listed: Each event clearly displays the hike’s location, duration, and terrain type.
 
-- Pricing is visible
+- Visible Pricing: Pricing is shown directly within each event card, making it easy for users to compare options.
 
-- Each event includes a “Book Now” button that links to the inquiry form.
+- “Book Now” Button: Every event includes a “Book Now” button that links to the inquiry form, streamlining the booking process.
 
-- Each event includes a difficulty rating.
+- Difficulty Rating: Each hike includes a difficulty label (e.g., Easy, Moderate), helping users choose based on their comfort level.
+
 
 ### Gallery
 
-- Displays high-quality images from past hikes and events.
+- High-Quality Images: The gallery features vibrant, well-composed photos from past hikes and events, showcasing scenic landscapes and joyful moments.
 
-- Reflects diversity and inclusivity of the community.
+- Diversity and Inclusivity: The images reflect a welcoming and diverse community, aligning beautifully with your mission of queer-friendly outdoor experiences.
 
-- Encourages new users to get a feel for the experience before booking.
+- Encourages Engagement: The visual storytelling gives potential participants a feel for the vibe and camaraderie, helping them imagine themselves as part of the adventure before booking.
+
 
 ### Booking Form
 
-- A responsive form that collects name, email, event type, and special requests.
+- Responsive Form: The form adapts well across screen sizes and collects:
+  - Name
+  - Email
+  - Event type (via dropdown)
+  - Special requests (via textarea)
+- Form Validation: Required fields are enforced, preventing incomplete submissions.
+- Confirmation Behavior: After submission, users are redirected to a confirmation page, which reassures them that their inquiry was received.
 
-- Includes form validation to ensure submissions are complete and accurate.
+### About Us page
 
-- Confirmation message or redirect on successful submission.
+- Shares your mission and values, helping users understand the heart behind Trailblazers.
+
+- Builds trust and emotional connection with your audience.
+
+- Reinforces your commitment to queer-friendly outdoor experiences.
+
+### Beginner's Guide page
+
+- Offers practical advice for new hikers, lowering barriers to entry.
+
+- Aligns with inclusive ethos by making outdoor adventures feel approachable.
+
+- Adds educational value, which enhances the overall user experience.
+
 
 ## Contact section
 
-- Includes social media links to send messages to our team.
+- Social Media Icons: The footer includes clickable icons for platforms like Instagram and Facebook.
+
+- External Messaging: These links open in new tabs and direct users to your social profiles, where they can send messages or follow updates.
+
+- Responsive Design: The icons are styled consistently and remain accessible across screen sizes.
+
 
 ### Footer
 
-- Includes 'Trailblazers made by court' with an apple emoji.
+- Footer Text: It includes the phrase “Trailblazers made by court 🍎”, which adds a personal and playful touch—very on-brand for your whimsical style.
 
-- Designed to be accessible and mobile-friendly.
+- Accessibility & Mobile-Friendliness: The footer layout is clean, readable, and responsive across screen sizes. Text contrast is solid, and the spacing adapts well for smaller devices.
+
+## Future Enchancements
+
+- Form Confirmation Feedback
+Add a more visually engaging confirmation message or animation after form submission to reinforce successful interaction.
+
+- Expanded Beginner’s Guide
+Include downloadable checklists, gear recommendations, or safety tips tailored to different hike types and seasons
+
+- User Testimonials Section
+Include quotes or stories from past participants to build trust and showcase community impact.
+
 
 ## Technologies Used
 
@@ -222,18 +273,18 @@ The header is consistent across all screen sizes. It contains a logo on the left
 
 |                         Bug                         |   Status   |                                                                 Description                                                                |                                                              Steps To Resolve                                                              |   |   |
 |:---------------------------------------------------:|:----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|---|---|
-| Hero image not filling full screen                  | fixed      | hero image was not filling the whole header viewport.                                                                                      |                                                                                                                                            |   |   |
+| Hero image not filling full screen                  | fixed      | hero image was not filling the whole header viewport.                                                                                      |                    Adjusted styling so the hero image fills the full header height.                                                                                                                        |   |   |
 | trouble with opacity on hero image                  | fixed      | The hero image was a background image. I added opacity in css to the image,it only applied to text.<br>                                    | Changed the background image to an img tag in HTML<br>and styled in CSS. Added a div with the class of overlay<br>to add opacity in CSS.   |   |   |
-| incorrect image aspect ratio                        | unresolved | While using lighthouse testing on chrome devtools, i found that my card imgs were the incorrect aspect ratio.                              |                                                                                                                                            |   |   |
+| Lighthouse performance score low                       | unresolved | 	LCP (Largest Contentful Paint) score was high, affecting performance. Had trouble reducing it.                              |               Moved the CSS for the header into the <head> so it loads first, improving LCP.                                                                                                                             |   |   |
 | removing padding from bootstrap card footer         | fixed      | I wanted to remove the padding from the footer on Bootstrap's cards for aesthetics                                                         | had to add a applied !important to override bootstraps code                                                                                |   |   |
-| card text heights on laptop are constantly changing | unresolved |                                                                                                                                            |                                                                                                                                            |   |   |
+| card text heights on laptop are constantly changing | resolved |                                                                                                                               Text heights in cards vary on different laptop displays             |                                     Added a media query for desktop breakpoints to align text horizontally.                                                                                                       |   |   |
 | invalid column class                                | fixed      | accidently joined two column classes together                                                                                              | separated column classes with a space                                                                                                      |   |   |
 | phone input used type=number                        | fixed      | The phone input was set up as a number field, so it showed things like arrows and allowed odd formats that aren’t right for phone numbers. | Changed to type="tel" so it works better for phone numbers and shows the right keyboard on phones.                                         |   |   |
 | social icons not appearing on about us page         | fixed      | pasted social icons into about us page but wasnt appearing on page                                                                         | Forgot to add font Awesome link to About Us page when pasting over social icons.                                                           |   |   |
 
 ### Responsiveness Tests
 
-<!-- Write some lines about the responsiveness testing   -->
+To ensure optimal responsiveness, I launched the website early in its development. Adopting a mobile-first approach, I tested every modification using the built-in Developer Tools in Google Chrome to preview how the site appears on different screen sizes. Once deployed, I used Am I Responsive to gain a unified preview of the live site across various breakpoints.
 
 | Size | Device Example | Navigation | Element Alignments | Content Placement | Functionality | Notes |
 | :--: | :------------: | :--------: | :----------------: | :---------------: | :-----------: | :---: |
@@ -275,9 +326,7 @@ I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). 
 | As a user, I want to be able to use the website on phone, tablet, or desktop                                                                      | Fully responsive; tested on multiple screen sizes                                                              |   Yes     | [Screenshots of site on mobile, tablet, and desktop](docs\screen-view.png)   |
 ## Feature Testing
 
-This website was extensively tested for functionality using both Chrome and Edge developer tools.
-
-<!-- needs something else here -->
+This website was extensively tested for functionality using Chrome developer tools.
 
 ## Lighthouse Testing
 
@@ -346,4 +395,10 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
 - Visual content:
   - [Coolors](https://coolors.co/)
   - [Contrast Grid](https://contrast-grid.eightshapes.com/?version=1.1.0&background-colors=&foreground-colors=%23FFFFFF%2C%20White%0D%0A%23F2F2F2%0D%0A%23DDDDDD%0D%0A%23CCCCCC%0D%0A%23888888%0D%0A%23404040%2C%20Charcoal%0D%0A%23000000%2C%20Black%0D%0A%232F78C5%2C%20Effective%20on%20Extremes%0D%0A%230F60B6%2C%20Effective%20on%20Lights%0D%0A%23398EEA%2C%20Ineffective%0D%0A&es-color-form__tile-size=compact&es-color-form__show-contrast=aaa&es-color-form__show-contrast=aa&es-color-form__show-contrast=aa18&es-color-form__show-contrast=dnp)
-- Images: [pexel](https://www.pexels.com/)
+- Images:
+
+  - [Pexels](https://www.pexels.com/)
+  - [Emojipedia](https://emojipedia.org/)
+
+  
+ 
