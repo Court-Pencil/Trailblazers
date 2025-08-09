@@ -25,6 +25,7 @@ Trailblazers is an inclusive website built for LGBTQ+ nature lovers seeking conn
     - [Gallery](#gallery)
     - [Booking form](#booking-form)
     - [Footer](#footer)
+  - [Future Enhancements](#future-enhancements)
 - [Technologies Used](#tech-used)
   - [Languages](#languages)
   - [Libraries & Framework](#libraries-framework)

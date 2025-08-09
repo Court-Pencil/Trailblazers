@@ -202,6 +202,11 @@ h2 span {
 #beginnersguide {
   margin-top: 5rem;
 }
+
+#beginnersguide .spacing {
+  margin: 2rem 0rem;
+}
+
 @media screen and (max-width: 383px) {
   #beginnersguide h2 span {
     padding: 0.5rem 2rem;
