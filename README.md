@@ -303,27 +303,27 @@ To ensure optimal responsiveness, I launched the website early in its developmen
 ### HTML
 
 I have used [W3C HTML Validation Service](https://validator.w3.org/). I have tested 4 pages. The tests came back with 10 errors that i corrected as shown in the screenshots.  
-![Screenshot of some errors](docs\html-validation.png)
-![Screenshot of some errors](docs\html-validation1.png)
-![Screenshot of some errors](docs\html-validation2.png)
-![Corrected errors](docs\corrected-html-validations.png)
+![Screenshot of some errors](docs/html-validation.png)
+![Screenshot of some errors](docs/html-validation1.png)
+![Screenshot of some errors](docs/html-validation2.png)
+![Corrected errors](docs/corrected-html-validations.png)
 
 
 
 ### CSS
 
 I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). I have tested 4 pages. It passed the first time.
-![Screenshot of CSS validation test](docs\css-validator.png)
+![Screenshot of CSS validation test](docs/css-validator.png)
 
 ## User Story Testing
 | **User Story**                                                                                                                                     | **Result**                                                                                                   | **Pass** | **Screenshots**                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|:--------:|------------------------------------------------------|
-| As a user, I want clear details about each hike – including location, date, duration, and terrain, so I can decide if it's right for me           | Hike cards have clearly laid out information with icons                                                        |   Yes     | [Screenshot of hike cards](docs\usr-hike-cards.png)             |
-| As a user, I want reassurance as a first-time hiker that there are events that are beginner-friendly                                              | Difficulty levels shown on cards. Encouraging language throughout website. Beginner’s Guide to Hiking added. |   Yes     | [Screen of beginner cards](docs\usr-beginner.png) [Screenshot of Beginner’s Guide](docs\usr-guide.png)   |
-| As a user, I want to browse a gallery to get a feel for the community vibe                                                                        | Gallery shows hikers and scenery, conveying friendly, social atmosphere                                        |   Yes     |  [Screenshot of gallery section](docs\urs-gallery.png)                          |
-| As a user, I want a simple and accessible way to book a hike and find contact information                                                         | Booking form is easy to use, with clear contact section and social icons                                       |   Yes     | [Screenshot of booking form](docs\urs-booking-form.png) [Screenshot of contact section](docs\usr-contact-us.png)       |
-| As a user, I want to be able to see this is an inclusive space, without fear of discrimination                                                    | Inclusive language in About section and message under booking form                                             |   Yes     | [Screenshot of About section](docs\urs-about-us.png) [Screenshot of booking message](docs\urs-booking-form.png)      |
-| As a user, I want to be able to use the website on phone, tablet, or desktop                                                                      | Fully responsive; tested on multiple screen sizes                                                              |   Yes     | [Screenshots of site on mobile, tablet, and desktop](docs\screen-view.png)   |
+| As a user, I want clear details about each hike – including location, date, duration, and terrain, so I can decide if it's right for me           | Hike cards have clearly laid out information with icons                                                        |   Yes     | [Screenshot of hike cards](docs/usr-hike-cards.png)             |
+| As a user, I want reassurance as a first-time hiker that there are events that are beginner-friendly                                              | Difficulty levels shown on cards. Encouraging language throughout website. Beginner’s Guide to Hiking added. |   Yes     | [Screen of beginner cards](docs/usr-beginner.png) [Screenshot of Beginner’s Guide](docs/usr-guide.png)   |
+| As a user, I want to browse a gallery to get a feel for the community vibe                                                                        | Gallery shows hikers and scenery, conveying friendly, social atmosphere                                        |   Yes     |  [Screenshot of gallery section](docs/urs-gallery.png)                          |
+| As a user, I want a simple and accessible way to book a hike and find contact information                                                         | Booking form is easy to use, with clear contact section and social icons                                       |   Yes     | [Screenshot of booking form](docs/urs-booking-form.png) [Screenshot of contact section](docs/usr-contact-us.png)       |
+| As a user, I want to be able to see this is an inclusive space, without fear of discrimination                                                    | Inclusive language in About section and message under booking form                                             |   Yes     | [Screenshot of About section](docs/urs-about-us.png) [Screenshot of booking message](docs/urs-booking-form.png)      |
+| As a user, I want to be able to use the website on phone, tablet, or desktop                                                                      | Fully responsive; tested on multiple screen sizes                                                              |   Yes     | [Screenshots of site on mobile, tablet, and desktop](docs/screen-view.png)   |
 ## Feature Testing
 
 This website was extensively tested for functionality using Chrome developer tools.
@@ -337,12 +337,12 @@ The Trailblazers website has been tested in Chrome Dev Tools using Lighthouse Te
 - Best Practices - checks whether the page is built on the modern standards of web development.  
 
 ## Regular chrome Dev tools:
-![lighthouse testing images](docs\devtools-lighthouse.png)
+![lighthouse testing images](docs/devtools-lighthouse.png)
 
 
 
 ## Incognito testing:
-![lighthouse testing images](docs\lighthouse-testing-incognito.png)  
+![lighthouse testing images](docs/lighthouse-testing-incognito.png)  
 
 
 ### Brower Testing
