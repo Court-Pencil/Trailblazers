@@ -267,12 +267,12 @@ I have used [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). 
 ## User Story Testing
 | **User Story**                                                                                                                                     | **Result**                                                                                                   | **Pass** | **Screenshots**                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|:--------:|------------------------------------------------------|
-| As a user, I want clear details about each hike – including location, date, duration, and terrain, so I can decide if it's right for me           | Hike cards have clearly laid out information with icons                                                        |   ✅     | [Screenshot of hike cards](docs\usr-hike-cards.png)             |
-| As a user, I want reassurance as a first-time hiker that there are events that are beginner-friendly                                              | Difficulty levels shown on cards. Encouraging language throughout website. Beginner’s Guide to Hiking added. |   ✅     | [Screen of beginner cards](docs\usr-beginner.png) [Screenshot of Beginner’s Guide](docs\usr-guide.png)   |
-| As a user, I want to browse a gallery to get a feel for the community vibe                                                                        | Gallery shows hikers and scenery, conveying friendly, social atmosphere                                        |   ✅     |  [Screenshot of gallery section](docs\urs-gallery.png)                          |
-| As a user, I want a simple and accessible way to book a hike and find contact information                                                         | Booking form is easy to use, with clear contact section and social icons                                       |   ✅     | [Screenshot of booking form](docs\urs-booking-form.png) [Screenshot of contact section](docs\usr-contact-us.png)       |
-| As a user, I want to be able to see this is an inclusive space, without fear of discrimination                                                    | Inclusive language in About section and message under booking form                                             |   ✅     | [Screenshot of About section](docs\urs-about-us.png) [Screenshot of booking message](docs\urs-booking-form.png)      |
-| As a user, I want to be able to use the website on phone, tablet, or desktop                                                                      | Fully responsive; tested on multiple screen sizes                                                              |   ✅     | [Screenshots of site on mobile, tablet, and desktop](docs\screen-view.png)   |
+| As a user, I want clear details about each hike – including location, date, duration, and terrain, so I can decide if it's right for me           | Hike cards have clearly laid out information with icons                                                        |   Yes     | [Screenshot of hike cards](docs\usr-hike-cards.png)             |
+| As a user, I want reassurance as a first-time hiker that there are events that are beginner-friendly                                              | Difficulty levels shown on cards. Encouraging language throughout website. Beginner’s Guide to Hiking added. |   Yes     | [Screen of beginner cards](docs\usr-beginner.png) [Screenshot of Beginner’s Guide](docs\usr-guide.png)   |
+| As a user, I want to browse a gallery to get a feel for the community vibe                                                                        | Gallery shows hikers and scenery, conveying friendly, social atmosphere                                        |   Yes     |  [Screenshot of gallery section](docs\urs-gallery.png)                          |
+| As a user, I want a simple and accessible way to book a hike and find contact information                                                         | Booking form is easy to use, with clear contact section and social icons                                       |   Yes     | [Screenshot of booking form](docs\urs-booking-form.png) [Screenshot of contact section](docs\usr-contact-us.png)       |
+| As a user, I want to be able to see this is an inclusive space, without fear of discrimination                                                    | Inclusive language in About section and message under booking form                                             |   Yes     | [Screenshot of About section](docs\urs-about-us.png) [Screenshot of booking message](docs\urs-booking-form.png)      |
+| As a user, I want to be able to use the website on phone, tablet, or desktop                                                                      | Fully responsive; tested on multiple screen sizes                                                              |   Yes     | [Screenshots of site on mobile, tablet, and desktop](docs\screen-view.png)   |
 ## Feature Testing
 
 This website was extensively tested for functionality using both Chrome and Edge developer tools.
@@ -281,18 +281,20 @@ This website was extensively tested for functionality using both Chrome and Edge
 
 ## Lighthouse Testing
 
-The Trailblazers website has been tested in the Chrome Dev Tools and Microsoft Edge Dev Tools using Lighthouse Testing tool which inspects and scores the website for the following criteria:
+The Trailblazers website has been tested in Chrome Dev Tools using Lighthouse Testing tool which inspects and scores the website for the following criteria. I also tested it in the incognito brower as well for a more accurate reading:
 
 - Performance - how quickly a website loads and how quickly users can access it.
 - Accessibility - test analyses how well people who use assistive technologies can use your website.
-- Best Practices - checks whether the page is built on the modern standards of web development.
+- Best Practices - checks whether the page is built on the modern standards of web development.  
 
-<!-- Insert images of lighthouse testing -->
+## Regular chrome Dev tools:
+![lighthouse testing images](docs\devtools-lighthouse.png)
 
-![lighthouse testing images](https://lighthouse.com)  
-![lighthouse testing images](https://lighthouse.com)  
-![lighthouse testing images](https://lighthouse.com)  
-![lighthouse testing images](https://lighthouse.com)
+
+
+## Incognito testing:
+![lighthouse testing images](docs\lighthouse-testing-incognito.png)  
+
 
 ### Brower Testing
 
