@@ -96,7 +96,14 @@ h1 {
   max-width: 4.5rem;
   max-height: 4.5rem;
   color: var(--header-yellow);
+  cursor: pointer;
 }
+
+.heading-link {
+  text-decoration: none;
+  color: inherit;
+}
+
 
 .outline-btn {
   color: var(--pale-green);
@@ -179,7 +186,7 @@ h1 {
 
 
 #about {
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 .circle-about-image {
@@ -219,7 +226,7 @@ h1 {
   font-size: var(--fs-reg);
   font-weight: 700;
   margin: 1rem;
-  margin-top: 6.5rem;
+  margin-top: 8rem;
 }
 
 .form-select,
@@ -258,7 +265,7 @@ h1 {
 }
 
 #beginnersguide {
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 #beginnersguide .spacing {
@@ -297,7 +304,7 @@ h1 {
   }
 
   #booking-form {
-    margin: 6.5rem 9rem;
+    margin: 8rem 9rem;
   }
 
   .card {
