@@ -89,7 +89,6 @@ The final design of the Trailblazers site evolved from the original wireframes t
 ![Wireframe-Mobile](docs/wireframe-mobile.png)
 ![Wireframe-Mobile](docs/wireframe-tablet.png)
 ![Wireframe-Mobile](docs/wireframe-desktop.png)
-docs\trailblazers-colour-scheme.png
 
 ## Design Choices
 
@@ -106,17 +105,16 @@ The colour scheme was chosen based on colours you find out in nature on a walk. 
 I used [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid") to check effective color pairings that support readability and to identify combinations that may hinder legibility due to insufficient contrast or visual discomfort.
 
 ![Colour contrast grid](docs/colour-contrast-grid.png)
-
-| CSS name             | HEX     | Comment                                            |     |     |     |
-| -------------------- | ------- | -------------------------------------------------- | --- | --- | --- |
-| green                | #293b31 | background colour of navbar, footer, button and h2 |     |     |     |
-| lighter yellow       | #D19C1D | font colour on navbar, footer, h2, header          |     |     |     |
-| pale-green           | #bebe5e | icon colour and button font                        |     |     |     |
-| lavender             | #d6c7e1 | button hover colour, icon hover colour             |     |     |     |
-| Other Colors CSS Hex |         |                                                    |     |     |     |
-| green                | #198755 | colour for beginner difficulty                     |     |     |     |
-| yellow               | #ffc107 | colour for intermediate difficulty                 |     |     |     |
-| red                  | #dc3545 | colour for challenging difficulty                  |     |     |     |
+| CSS Name             | HEX     | Comment                                            |
+| -------------------- | ------- | -------------------------------------------------- |
+| --green              | #293b31 | background colour of navbar, footer, button and h2 |
+| --lighter yellow     | #D19C1D | font colour on navbar, footer, h2, header          |
+| --pale-green         | #bebe5e | icon colour and button font                        |
+| --lavender           | #d6c7e1 | button hover colour, icon hover colour             |
+| Other Colors CSS Hex |         |                                                    |
+| green                | #198755 | colour for beginner difficulty                     |
+| yellow               | #ffc107 | colour for intermediate difficulty                 |
+| red                  | #dc3545 | colour for challenging difficulty                  |
 
 ### Images
 
