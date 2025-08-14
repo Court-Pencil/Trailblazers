@@ -49,31 +49,31 @@ Trailblazers is an inclusive website built for LGBTQ+ nature lovers seeking conn
 
 ## User Goals
 
-- User friendly navigation and responsive design
-- Find inclusive hiking events
-- Learn about hike locations and details
-- View pictures from past events
-- Book or Inquire about events quickly
-- Visible pricing for events
+- User friendly navigation and responsive design.
+- Find inclusive hiking events.
+- Learn about hike locations and details.
+- View pictures from past events.
+- Book or Inquire about events quickly.
+- Visible pricing for events.
 
 ## User Stories
 
 - As a user, I want clear details about each hike — including location, date, duration, and terrain — so I can decide if it’s right for me.
-- As a user, I want to reassurance as a first-time hiker that there are events that are beginner-friendly.
+- As a user, I want reassurance as a first-time hiker that there are events that are beginner-friendly.
 - As a user, I want to browse a gallery to get a feel for the community vibe.
 - As a user, I want a simple and accessible way to book a hike and find contact information.
-- As a user, I want to be able to see this is a inclusive space.
+- As a user, I want to be able to see that this is a inclusive space.
 - As a user, I want to be able to browse pricing easily.
 - As a user, I want to be to use the website on phone, tablet or desktop.
 
 ## Website Goals and Objectives
 
-- Grow the community and increase members
-- Boost ticket sales for events
-- Encourage participation from all skill levels
-- Foster connection through pictures and written content
-- Create a welcoming online space for LGBTQ+ individuals
-- Increase ranking on search engine to increase website traffic
+- Grow the community and increase members.
+- Boost ticket sales for events.
+- Encourage participation from all skill levels.
+- Foster connection through pictures and written content.
+- Create a welcoming online space for LGBTQ+ individuals.
+- Increase ranking on search engine to increase website traffic.
 - Present up-to date event information with clear times, locations, and pricing.
 
 ## Target Audience
@@ -85,7 +85,7 @@ Trailblazers is an inclusive website built for LGBTQ+ nature lovers seeking conn
 ## Wireframes
 
 The wireframes were designed using Balsamiq. Designed with mobile first practices, tablet and then website. 
-The final design of the Trailblazers site evolved from the original wireframes to create a smoother, more intuitive user experience. While the wireframes helped establish the initial structure—such as homepage layout, events section, and contact form—the final version refines these elements for better flow and clarity.
+The final design of the Trailblazers site evolved from the original wireframes to create a smoother, more intuitive user experience. While the wireframes helped establish the initial structure—such as homepage layout, events section, and booking form the final version refines these elements for better flow and clarity.
 ![Wireframe-Mobile](docs/wireframe-mobile.png)
 ![Wireframe-Mobile](docs/wireframe-tablet.png)
 ![Wireframe-Mobile](docs/wireframe-desktop.png)
@@ -94,7 +94,7 @@ The final design of the Trailblazers site evolved from the original wireframes t
 
 ### Typography
 
-The font family choose for the Trailblazers website was Bree Serif for the primary font. Lato for the secondary font. These fonts were choosen for their joyful and inviting feel.
+The font family chosen for the Trailblazers website was Bree Serif for the primary font. Lato for the secondary font. These fonts were choosen for their joyful and inviting feel.
 
 ### Colour Scheme
 
@@ -120,12 +120,12 @@ I used [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid") t
 
 Images are taken from:
 
-- [pexel](https://www.pexels.com/)
+- [Pexels](https://www.pexels.com/)
 - [unsplash](https://unsplash.com/)
 
 ### Responsiveness
 
-My website is repsonsive to all screen sizes. The breakpoints i am using are from bootstrap.
+My website is repsonsive to all screen sizes. The breakpoints i am using are from Bootstrap.
 | Breakpoint | Class infix | Dimensions | | |
 |-------------------|-------------|------------|---|---|
 | Extra small | None | <576px | | |
@@ -143,9 +143,13 @@ My website is repsonsive to all screen sizes. The breakpoints i am using are fro
 
 - Upcoming Hikes Section – Lists each planned hike with full details, including date, distance, duration, terrain type, difficulty level, and price.
 
-- Booking/Contact Form – Allows visitors to inquire about or sign up for events directly through the site.
-
 - Gallery – Displays photos from past hikes, capturing the group’s inclusive and adventurous atmosphere.
+
+- About us - Gives an backstory on how Trailblazers started and includes a mission statement.
+
+- Beginner's Guide - For first time hikes gives a guide on what to the weather, what to wear and what to bring.
+
+- Booking Form – Allows visitors to sign up for events directly through the site.
 
 - Intuitive Navigation – Simple, clear menu structure for quick access to all pages.
 
@@ -159,9 +163,9 @@ My website is repsonsive to all screen sizes. The breakpoints i am using are fro
 
 ### Header
 
-The header maintains a consistent and responsive layout across all screen sizes. On larger screens, it features a logo on the left and navigation links to the Gallery, Events, Contact, and Home pages on the right, alongside a prominent “Book Now” call-to-action button. On smaller screens, the navigation adapts into a mobile-friendly menu. The clear, user-friendly design helps users orient themselves quickly with intuitive and accessible navigation
+The header maintains a consistent and responsive layout across all screen sizes. On larger screens, it features a logo on the left and navigation links to the Gallery, Hikes, About us, Beginners guide and Home pages on the right, alongside a prominent “Book Now” call-to-action button. On smaller screens, the navigation adapts into a mobile-friendly menu using a burger icon drop-down menu. The clear, user-friendly design helps users orient themselves quickly with intuitive and accessible navigation.
 
-### Home page
+### Home Page
 
 - Welcoming Landing Section: The homepage opens with a bold, affirming mission statement that immediately sets the tone for inclusivity and adventure.  
 
@@ -172,7 +176,7 @@ The header maintains a consistent and responsive layout across all screen sizes.
 
 - Upcoming Hikes Listed: Each event clearly displays the hike’s location, duration, and terrain type.
 
-- Visible Pricing: Pricing is shown directly within each event card, making it easy for users to compare options.
+- Visible Pricing: Pricing is shown directly within each event card, making it easy for users to see.
 
 - “Book Now” Button: Every event includes a “Book Now” button that links to the inquiry form, streamlining the booking process.
 
@@ -198,15 +202,15 @@ The header maintains a consistent and responsive layout across all screen sizes.
 - Form Validation: Required fields are enforced, preventing incomplete submissions.
 - Confirmation Behavior: After submission, users are redirected to a confirmation page, which reassures them that their inquiry was received.
 
-### About Us page
+### About Us Page
 
-- Shares your mission and values, helping users understand the heart behind Trailblazers.
+- Shares our backstory, mission and values, helping users understand the heart behind Trailblazers.
 
 - Builds trust and emotional connection with your audience.
 
 - Reinforces your commitment to queer-friendly outdoor experiences.
 
-### Beginner's Guide page
+### Beginner's Guide Page
 
 - Offers practical advice for new hikers, lowering barriers to entry.
 
@@ -217,7 +221,7 @@ The header maintains a consistent and responsive layout across all screen sizes.
 
 ## Contact section
 
-- Social Media Icons: The footer includes clickable icons for platforms like Instagram and Facebook.
+- Social Media Icons: The footer includes clickable icons for platforms like Instagram and Facebook that open in a new tab.
 
 - External Messaging: These links open in new tabs and direct users to your social profiles, where they can send messages or follow updates.
 
@@ -226,7 +230,7 @@ The header maintains a consistent and responsive layout across all screen sizes.
 
 ### Footer
 
-- Footer Text: It includes the phrase “Trailblazers made by court 🍎”, which adds a personal and playful touch—very on-brand for your whimsical style.
+- Footer Text: It includes the phrase “Trailblazers made by court 🍎”.
 
 - Accessibility & Mobile-Friendliness: The footer layout is clean, readable, and responsive across screen sizes. Text contrast is solid, and the spacing adapts well for smaller devices.
 
@@ -236,7 +240,7 @@ The header maintains a consistent and responsive layout across all screen sizes.
 Add a more visually engaging confirmation message or animation after form submission to reinforce successful interaction.
 
 - Expanded Beginner’s Guide
-Include downloadable checklists, gear recommendations, or safety tips tailored to different hike types and seasons
+Include downloadable checklists, gear recommendations, and safety tips tailored to different hike types and seasons.
 
 - User Testimonials Section
 Include quotes or stories from past participants to build trust and showcase community impact.
@@ -274,9 +278,9 @@ Include quotes or stories from past participants to build trust and showcase com
 |:---------------------------------------------------:|:----------:|:------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------:|---|---|
 | Hero image not filling full screen                  | fixed      | hero image was not filling the whole header viewport.                                                                                      |                    Adjusted styling so the hero image fills the full header height.                                                                                                                        |   |   |
 | trouble with opacity on hero image                  | fixed      | The hero image was a background image. I added opacity in css to the image,it only applied to text.<br>                                    | Changed the background image to an img tag in HTML<br>and styled in CSS. Added a div with the class of overlay<br>to add opacity in CSS.   |   |   |
-| Lighthouse performance score low                       | unresolved | 	LCP (Largest Contentful Paint) score was high, affecting performance. Had trouble reducing it.                              |               Moved the CSS for the header into the <head> so it loads first, improving LCP.                                                                                                                             |   |   |
+| Lighthouse performance score low                       | unresolved | 	LCP (Largest Contentful Paint) score was high, affecting performance. Had trouble reducing it.                              |               Getting different scores in lighthouse, large lcp due to many images on the home page.                                                                                                                            |   |   |
 | removing padding from bootstrap card footer         | fixed      | I wanted to remove the padding from the footer on Bootstrap's cards for aesthetics                                                         | had to add a applied !important to override bootstraps code                                                                                |   |   |
-| card text heights on laptop are constantly changing | resolved |                                                                                                                               Text heights in cards vary on different laptop displays             |                                     Added a media query for desktop breakpoints to align text horizontally.                                                                                                       |   |   |
+| card text heights on laptop are constantly changing | fixed |                                                                                                                               Text heights in cards vary on different laptop displays             |                                     Added a media query for desktop breakpoints to align text horizontally.                                                                                                       |   |   |
 | invalid column class                                | fixed      | accidently joined two column classes together                                                                                              | separated column classes with a space                                                                                                      |   |   |
 | phone input used type=number                        | fixed      | The phone input was set up as a number field, so it showed things like arrows and allowed odd formats that aren’t right for phone numbers. | Changed to type="tel" so it works better for phone numbers and shows the right keyboard on phones.                                         |   |   |
 | social icons not appearing on about us page         | fixed      | pasted social icons into about us page but wasnt appearing on page                                                                         | Forgot to add font Awesome link to About Us page when pasting over social icons.                                                           |   |   |
@@ -334,6 +338,8 @@ The Trailblazers website has been tested in Chrome Dev Tools using Lighthouse Te
 - Performance - how quickly a website loads and how quickly users can access it.
 - Accessibility - test analyses how well people who use assistive technologies can use your website.
 - Best Practices - checks whether the page is built on the modern standards of web development.  
+
+I had some trouble with the performance scores when testing with lighthouse. I kept getting different scores which turned out to be because of the many images on the homepage. The scores are over 80 so im happy with the results.  
 
 ## Regular chrome Dev tools:
 ![lighthouse testing images](docs/devtools-lighthouse.png)
@@ -398,7 +404,7 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
 
   - [Pexels](https://www.pexels.com/)
   - [Emojipedia](https://emojipedia.org/)  
-  
+
 - learning content:
 
   - [Code Institute](https://learn.codeinstitute.net/ci_program/diwad_v2_14)
