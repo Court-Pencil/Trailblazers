@@ -397,7 +397,11 @@ Forking the GitHub repository allows you to create a duplicate of a local reposi
 - Images:
 
   - [Pexels](https://www.pexels.com/)
-  - [Emojipedia](https://emojipedia.org/)
+  - [Emojipedia](https://emojipedia.org/)  
+  
+- learning content:
 
+  - [Code Institute](https://learn.codeinstitute.net/ci_program/diwad_v2_14)
+  - [Kevin Powell CSS](https://www.youtube.com/@KevinPowell)
   
  

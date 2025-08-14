@@ -13,6 +13,7 @@
 
 html {
   font-size: 10px;
+  scroll-padding-top: 6.2rem;
 }
 
 body {
@@ -220,6 +221,7 @@ h1 {
 
 #gallery{
   margin-bottom: 1rem;
+  scroll-margin-top: 6.2rem;
 }
 
 #booking-form {
