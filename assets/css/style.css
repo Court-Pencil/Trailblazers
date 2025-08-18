@@ -13,7 +13,6 @@
 
 html {
   font-size: 10px;
-  scroll-padding-top: 6.2rem;
 }
 
 body {
@@ -24,38 +23,28 @@ body {
   color: var(--pale-green);
 }
 
-.secondary-font {
-  font-family: var(--secondary-font);
-}
-
 .light-background {
   color: var(--green);
 }
 
-.page-button {
-  color: var(--pale-green);
-  background-color: var(--green);
-  font-family: var(--secondary-font);
-  border-color: var(--pale-green);
-  display: block;
-  margin: auto;
-  font-size: var(--fs-reg);
-}
 
-.page-button:hover {
-  color: var(--lavender);
-  background-color: var(--green);
-  border-color: var(--lavender);
-}
-
+/* TYPOGRAPHY & FONT UTILITIEST */
 h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
+
+.secondary-font {
+  font-family: var(--secondary-font);
+} 
 
 .title,
 .section-heading {
   color: var(--lighter-yellow);
   font-family: var(--primary-font);
+}
+
+.section-heading{
+  scroll-margin-top: 6.5rem;
 }
 
 .subheading {
@@ -75,7 +64,35 @@ h1 {
   padding: 0.5rem 5rem;
 }
 
+/* BUTTONS */
+.page-button {
+  color: var(--pale-green);
+  background-color: var(--green);
+  font-family: var(--secondary-font);
+  border-color: var(--pale-green);
+  display: block;
+  margin: auto;
+  font-size: var(--fs-reg);
+}
 
+.page-button:hover {
+  color: var(--lavender);
+  background-color: var(--green);
+  border-color: var(--lavender);
+}
+
+.outline-btn {
+  color: var(--pale-green);
+  border-color: var(--pale-green);
+  font-size: 1.3rem;
+}
+
+.outline-btn:hover {
+  color: var(--lavender);
+  border-color: var(--lavender);
+}
+
+/*NAVBAR*/
 #navbar {
   background-color: var(--green);
 }
@@ -105,23 +122,7 @@ h1 {
   color: inherit;
 }
 
-
-.outline-btn {
-  color: var(--pale-green);
-  border-color: var(--pale-green);
-  font-size: 1.3rem;
-}
-
-.outline-btn:hover {
-  color: var(--lavender);
-  border-color: var(--lavender);
-}
-
-.about-content {
-  display: block;
-  text-align: center;
-}
-
+/*HEADER*/
 #header {
   position: relative;
   display: flex;
@@ -173,30 +174,9 @@ h1 {
   margin-bottom: 2rem;
 }
 
-#footer .social-links  {
-    color: var(--highlight-color);
-    font-size: 1.6rem;
-    padding: 0 1rem;
-}
-
-
-.fa-solid {
-  font-size: clamp(2.5rem, 2vw, 4rem);
-  color: var(--lighter-yellow);
-}
-
-
-#about {
-  margin-top: 8rem;
-}
-
-.circle-about-image {
-  flex-shrink: 0;
-  background: url("../images/about-image.webp") no-repeat center / cover;
-  width: 25rem;
-  min-height: 25rem;
-  border-radius: 50%;
-  margin: 2rem auto;
+/* HIKES */
+#hikes{
+  scroll-margin-top: 6.3rem
 }
 
 .card-img,
@@ -219,11 +199,67 @@ h1 {
   font-size: 1.75rem;
 }
 
+/* GALLERY */
 #gallery{
   margin-bottom: 1rem;
-  scroll-margin-top: 6.2rem;
 }
 
+#gallery{
+  scroll-margin-top: 6.3rem;
+}
+
+
+/* FOOTER */
+#footer .social-links  {
+    color: var(--highlight-color);
+    font-size: 1.6rem;
+    padding: 0 1rem;
+}
+
+.fa-solid {
+  font-size: clamp(2.5rem, 2vw, 4rem);
+  color: var(--lighter-yellow);
+}
+
+#footer .social-links .footer-icons {
+  color: var(--pale-green);
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
+#footer .social-links .footer-icons:hover {
+  color: var(--lavender);
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
+#footer {
+  font-family: var(--primary-font);
+  background-color: var(--green);
+  color: var(--lighter-yellow);
+  font-size: 1.5rem;
+}
+
+/* ABOUT */
+#about {
+  margin-top: 8rem;
+}
+
+.about-content {
+  display: block;
+  text-align: center;
+}
+
+.circle-about-image {
+  flex-shrink: 0;
+  background: url("../images/about-image.webp") no-repeat center / cover;
+  width: 25rem;
+  min-height: 25rem;
+  border-radius: 50%;
+  margin: 2rem auto;
+}
+
+/* BOOKING FORM */
 #booking-form {
   font-size: var(--fs-reg);
   font-weight: 700;
@@ -246,26 +282,7 @@ h1 {
   padding-top: 10rem;
 }
 
-
-#footer .social-links .footer-icons {
-  color: var(--pale-green);
-  font-size: 2rem;
-  padding: 0 1rem;
-}
-
-#footer .social-links .footer-icons:hover {
-  color: var(--lavender);
-  font-size: 2rem;
-  padding: 0 1rem;
-}
-
-#footer {
-  font-family: var(--primary-font);
-  background-color: var(--green);
-  color: var(--lighter-yellow);
-  font-size: 1.5rem;
-}
-
+/* BEGINNERS GUIDE */
 #beginnersguide {
   margin-top: 8rem;
 }
@@ -274,6 +291,8 @@ h1 {
   margin: 2rem 0rem;
 }
 
+
+/* MEDIA QUERIES */
 @media screen and (max-width: 383px) {
   #beginnersguide .section-heading .accent-span {
     padding: 0.5rem 2rem;
