@@ -284,7 +284,7 @@ Include quotes or stories from past participants to build trust and showcase com
 | Invalid column class                                | fixed      | Accidentally joined two column classes together.                                                                                           | Separated column classes with a space.                                                                                                     |   |   |
 | Phone input used type=number                      | fixed      | The phone input was set up as a number field, so it showed things like arrows and allowed odd formats that aren’t right for phone numbers. | Changed to type="tel"  so it works better for phone numbers and shows the right keyboard on phones.                                       |   |   |
 | Social icons not appearing on About Us page         | fixed      | Pasted social icons into About Us page but they weren’t appearing.                                                                         | Forgot to add Font Awesome link to About Us page when pasting over social icons.                                                           |   |   |
-| Anchor headings hidden behind navbar                | unresolved | When clicking nav links, the target section’s heading is obscured by the fixed navbar.                                                     | Tried applying scroll-margin-top to target elements, but headings still partially hidden — needs further testing.                        |   |   |
+| Anchor headings hidden behind navbar                | unresolved | When clicking nav links, the target section’s heading is obscured by the fixed navbar on desktop. As well as gallery heading on other screens                                                     | Tried applying scroll-margin-top to target elements, but headings still partially hidden — needs further testing.                        |   |   |
 ### Responsiveness Tests
 
 To ensure optimal responsiveness, I launched the website early in its development. Adopting a mobile-first approach, I tested every modification using the built-in Developer Tools in Google Chrome to preview how the site appears on different screen sizes. Once deployed, I used Am I Responsive to gain a unified preview of the live site across various breakpoints.
@@ -297,9 +297,9 @@ To ensure optimal responsiveness, I launched the website early in its developmen
 |  md  |   iPad mini    |    Good    |        Good        |       Good        |     Good      |       |
 |  md  |    iPad Air    |    Good    |        Good        |       Good        |     Good      |       |
 |  lg  |    iPad Pro    |    Good    |        Good        |       Good        |     Good      |       |
-|  xl  |    Nest Hub    |    Good    |        Good        |       Good        |     Good      |       |
-| xxl  |  Nest Hub Max  |    Good    |        Good        |       Good        |     Good      |       |
-| xxl  |    Desktop     |    Good    |        Good        |       Good        |     Good      |       |
+|  xl  |    Nest Hub    |    satifactory    |        Good        |       Good        |     Good      |   Navbar covers some headings    |
+| xxl  |  Nest Hub Max  |    satifactory    |        Good        |       Good        |     Good      |   Navbar covers some headings    |
+| xxl  |    Desktop     |    satifactory    |        Good        |       Good        |     Good      |   Navbar covers some headings    |
 
 ## Code Validation
 
