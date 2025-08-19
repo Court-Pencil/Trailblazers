@@ -388,26 +388,34 @@ For my other pages, I received consistently high Lighthouse scores across perfor
 
 
 ## Mobile chrome Dev tools testing:
+### Index:
 ![lighthouse testing image index](docs/devtools-lighthouse.png)
  
-
+### About Us:
 ![lighthouse testing image About Us](docs/devtools-lighthouse.png)
 
+### Beginner's Guide:
 ![lighthouse testing image Beginner's Guide](docs/Lighthouse-beginnersguide.png)
 
+### Booking Form:
 ![lighthouse testing image Booking Form](docs/lighthouse-bookingform.png)
 
 ## Desktop chrome Dev tools testing:
+
+### Index:
 ![lighthouse testing image index](docs/lighthouse-desktop-index.png) 
+
+### About Us:
 
 ![lighthouse testing image About Us](docs/lighthouse-desktop-about-us.png)
 
+### Beginner's Guide:
+
 ![lighthouse testing image Beginner's Guide](docs/lighthouse-desktop-beginnersguide.png)
 
+### Booking Form:
+
 ![lighthouse testing image Booking Form](docs/lighthouse-desktop-booking.png)
-
-
-### Brower Testing
 
 ## Deployment
 
