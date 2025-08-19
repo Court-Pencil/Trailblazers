@@ -49,6 +49,8 @@ Trailblazers is an inclusive website built for LGBTQ+ nature lovers seeking conn
 
 ## User Goals
 
+Trailblazers was designed with a strong focus on user-centered design, reflecting the needs of LGBTQ+ hikers of all experience levels. The site ensures every visitor can easily find information, feel welcomed, and join in on upcoming community events. 
+
 - User friendly navigation and responsive design.
 - Find inclusive hiking events.
 - Learn about hike locations and details.
@@ -85,7 +87,14 @@ Trailblazers is an inclusive website built for LGBTQ+ nature lovers seeking conn
 ## Wireframes
 
 The wireframes were designed using Balsamiq. Designed with mobile first practices, tablet and then website. 
-The final design of the Trailblazers site evolved from the original wireframes to create a smoother, more intuitive user experience. While the wireframes helped establish the initial structure—such as homepage layout, events section, and booking form the final version refines these elements for better flow and clarity.
+The final design of the Trailblazers site evolved from the original wireframes to create a smoother, more intuitive user experience. While the wireframes helped establish the initial structure—such as homepage layout, events section, and booking form the final version refines these elements for better flow and clarity.  
+
+My wireframes evolved significantly from the initial designs. I originally started with a single scrolling layout to support a seamless user experience, based on the common behavior of users simply scrolling through content.  
+
+Midway through development, I shifted to a multi-page structure to better organize information and improve navigation. I moved the “About Us” section to its own dedicated page, created a new page for the beginner’s guide, and relocated the booking form to a separate page with a clear button to return to the homepage.  
+
+The homepage now features a welcoming hero image as the header, followed by upcoming hikes — the information users are most likely to seek first. This is followed by a gallery that showcases Trailblazers as a friendly and inclusive space. For those wanting to learn more about the organization, the “About Us” page offers deeper insight, while beginners can access the guide to understand what to bring and how to prepare.
+
 ![Wireframe-Mobile](docs/wireframe-mobile.png)
 ![Wireframe-Mobile](docs/wireframe-tablet.png)
 ![Wireframe-Mobile](docs/wireframe-desktop.png)
@@ -94,11 +103,14 @@ The final design of the Trailblazers site evolved from the original wireframes t
 
 ### Typography
 
-The font family chosen for the Trailblazers website was Bree Serif for the primary font. Lato for the secondary font. These fonts were choosen for their joyful and inviting feel.
+The font family chosen for the Trailblazers website was Bree Serif for the primary font. Lato for the secondary font. These were chosen for approachability, readability and friendliness, aligning with the site's welcoming and inclusive brand identity.
+
+Together, Bree Serif and Lato help the site feel both inclusive and trustworthy. Bree Serif brings softness and warmth to the design, while Lato keeps longer content clear and easy to read, such as hiking guides and event descriptions.
 
 ### Colour Scheme
 
-The colour scheme was chosen based on colours you find out in nature on a walk. The lavender was choosen as it is a reference to queer culture.
+The colour scheme was chosen based on colours you find out in nature on a walk. The lavender was chosen as it is a reference to queer culture. This combination of a nature-inspired palette and queer symbolism celebrates the community’s identity while keeping accessibility front and center, supported by contrast checks using the contrast grid.
+
 
 ![Coolors scheme](docs/trailblazers-colour-scheme.png)
 
@@ -114,9 +126,21 @@ I used [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid") t
 | Other Colors CSS Hex |         |                                                    |
 | green                | #198755 | colour for beginner difficulty                     |
 | yellow               | #ffc107 | colour for intermediate difficulty                 |
-| red                  | #dc3545 | colour for challenging difficulty                  |
+| red                  | #dc3545 | colour for challenging difficulty                  |  
+
+Difficulty levels for hikes also follow a traffic-light color system:
+
+Green (#198755) = beginner-friendly.
+
+Yellow (#ffc107) = intermediate.
+
+Red (#dc3545) = challenging.
+
+By using the familiar traffic light system, this design supports quick recognition and builds confidence. It gently guides first-time hikers who may be unsure of their abilities, making trail selection feel approachable and empowering.
 
 ### Images
+
+I selected images that reflect a broad spectrum of diversity, intentionally featuring the same individuals throughout to foster a sense of community, connection, and visual cohesiveness.  
 
 Images are taken from:
 
@@ -163,16 +187,21 @@ My website is repsonsive to all screen sizes. The breakpoints i am using are fro
 
 ### Header
 
+![Navbar screenshot](docs/features-navbar.png)
+
 The header maintains a consistent and responsive layout across all screen sizes. On larger screens, it features a logo on the left and navigation links to the Gallery, Hikes, About us, Beginners guide and Home pages on the right, alongside a prominent “Book Now” call-to-action button. On smaller screens, the navigation adapts into a mobile-friendly menu using a burger icon drop-down menu. The clear, user-friendly design helps users orient themselves quickly with intuitive and accessible navigation.
 
 ### Home Page
 
+![Home page](docs/features-header.png)
 - Welcoming Landing Section: The homepage opens with a bold, affirming mission statement that immediately sets the tone for inclusivity and adventure.  
 
 - High-Quality Background Imagery: The hero section features a warm, nature-inspired image that evokes a sense of belonging and exploration—perfect for your queer-friendly hiking theme.
 
 
 ### Events
+
+![Hikes](docs/features-hikes.png)
 
 - Upcoming Hikes Listed: Each event clearly displays the hike’s location, duration, and terrain type.
 
@@ -185,6 +214,8 @@ The header maintains a consistent and responsive layout across all screen sizes.
 
 ### Gallery
 
+![Gallery](docs/features-gallery.png)
+
 - High-Quality Images: The gallery features vibrant, well-composed photos from past hikes and events, showcasing scenic landscapes and joyful moments.
 
 - Diversity and Inclusivity: The images reflect a welcoming and diverse community, aligning beautifully with your mission of queer-friendly outdoor experiences.
@@ -192,7 +223,9 @@ The header maintains a consistent and responsive layout across all screen sizes.
 - Encourages Engagement: The visual storytelling gives potential participants a feel for the vibe and camaraderie, helping them imagine themselves as part of the adventure before booking.
 
 
-### Booking Form
+### Booking Form  
+
+![Booking Form](docs/features-booking-form.png)
 
 - Responsive Form: The form adapts well across screen sizes and collects:
   - Name
@@ -204,6 +237,8 @@ The header maintains a consistent and responsive layout across all screen sizes.
 
 ### About Us Page
 
+![About Us](docs/features-about-us.png)
+
 - Shares our backstory, mission and values, helping users understand the heart behind Trailblazers.
 
 - Builds trust and emotional connection with your audience.
@@ -211,6 +246,8 @@ The header maintains a consistent and responsive layout across all screen sizes.
 - Reinforces your commitment to queer-friendly outdoor experiences.
 
 ### Beginner's Guide Page
+
+![Beginner's Guide](docs/features-beginners-guide.png)
 
 - Offers practical advice for new hikers, lowering barriers to entry.
 
@@ -221,6 +258,8 @@ The header maintains a consistent and responsive layout across all screen sizes.
 
 ## Contact section
 
+![Contact section](docs/features-contact-section.png)
+
 - Social Media Icons: The footer includes clickable icons for platforms like Instagram and Facebook that open in a new tab.
 
 - External Messaging: These links open in new tabs and direct users to your social profiles, where they can send messages or follow updates.
@@ -230,20 +269,24 @@ The header maintains a consistent and responsive layout across all screen sizes.
 
 ### Footer
 
+![Footer](docs/features-contact-section.png)
+
 - Footer Text: It includes the phrase “Trailblazers made by court 🍎”.
 
 - Accessibility & Mobile-Friendliness: The footer layout is clean, readable, and responsive across screen sizes. Text contrast is solid, and the spacing adapts well for smaller devices.
 
 ## Future Enchancements
 
+While Trailblazers already provides an inclusive and user-friendly platform, there are enhancements planned to further improve the user experience and support community growth.  
+
 - Form Confirmation Feedback
-Add a more visually engaging confirmation message or animation after form submission to reinforce successful interaction.
+ Currently, form submissions redirect users to a confirmation page. Adding a more visually engaging confirmation message or animation after submission would reinforce successful interaction, provide immediate reassurance, and make the booking process feel more rewarding.
 
 - Expanded Beginner’s Guide
-Include downloadable checklists, gear recommendations, and safety tips tailored to different hike types and seasons.
+I would include downloadable checklists, gear recommendations, and safety tips tailored to different hike types and seasons. This improvement specifically supports new hikers who may feel anxious or underprepared, helping to remove barriers to participation and build confidence.
 
-- User Testimonials Section
-Include quotes or stories from past participants to build trust and showcase community impact.
+- User Testimonials Section  
+Featuring testimonials from past participants helps showcase the heart of the community. For first-time users, reading authentic experiences builds trust and connection, gently encouraging them to take that first step and join an event.
 
 
 ## Technologies Used
@@ -333,21 +376,35 @@ This website was extensively tested for functionality using Chrome developer too
 
 ## Lighthouse Testing
 
-The Trailblazers website has been tested in Chrome Dev Tools using Lighthouse Testing tool which inspects and scores the website for the following criteria. I also tested it in the incognito brower as well for a more accurate reading:
+The Trailblazers website has been tested in Chrome Dev Tools using Lighthouse Testing tool which inspects and scores the website for the following criteria. I generated two sets of lighthouse reports, one for mobile and one for desktop. 
 
 - Performance - how quickly a website loads and how quickly users can access it.
 - Accessibility - test analyses how well people who use assistive technologies can use your website.
 - Best Practices - checks whether the page is built on the modern standards of web development.  
 
-I had some trouble with the performance scores when testing with lighthouse. I kept getting different scores which turned out to be because of the many images on the homepage. The scores are over 80 so im happy with the results.  
+I had some trouble with the performance scores when testing with lighthouse on my index page. I kept getting different scores which turned out to be because of the many images on the homepage. The scores are over 80 so im happy with the results.  
 
-## Regular chrome Dev tools:
-![lighthouse testing images](docs/devtools-lighthouse.png)
-
+For my other pages, I received consistently high Lighthouse scores across performance, accessibility, best practices, and SEO. These pages are less image-heavy than the index page, which helped improve load times and Largest Contentful Paint (LCP). Streamlined layouts and minimal third-party scripts reduced render-blocking resources, while semantic HTML, clear heading structures, and thoughtful ARIA labeling supported strong accessibility scores. SEO remained solid thanks to descriptive meta tags, logical page hierarchies, and responsive design choices that prioritized user experience across devices.
 
 
-## Incognito testing:
-![lighthouse testing images](docs/lighthouse-testing-incognito.png)  
+## Mobile chrome Dev tools testing:
+![lighthouse testing image index](docs/devtools-lighthouse.png)
+ 
+
+![lighthouse testing image About Us](docs/devtools-lighthouse.png)
+
+![lighthouse testing image Beginner's Guide](docs/Lighthouse-beginnersguide.png)
+
+![lighthouse testing image Booking Form](docs/lighthouse-bookingform.png)
+
+## Desktop chrome Dev tools testing:
+![lighthouse testing image index](docs/lighthouse-desktop-index.png) 
+
+![lighthouse testing image About Us](docs/lighthouse-desktop-about-us.png)
+
+![lighthouse testing image Beginner's Guide](docs/lighthouse-desktop-beginnersguide.png)
+
+![lighthouse testing image Booking Form](docs/lighthouse-desktop-booking.png)
 
 
 ### Brower Testing
